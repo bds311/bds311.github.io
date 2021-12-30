@@ -19,7 +19,7 @@ Timothy Warren
 tim.warren AT oregonstate.edu         
 
 #### Teaching Assistant
-<img src="./arsheadshot.jpg", width="75" height = "75" align='center'/>
+<img src="./arsheadshot.jpg" width="75" height = "75" align='center'/>
 
 Alex Sathler
 sathlera AT oregonstate.edu
