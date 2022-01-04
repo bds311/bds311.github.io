@@ -8,12 +8,19 @@ title: Syllabus <br> Biological Data Sciences 311 <br> Computational Approaches 
 Timothy Warren  
 tim.warren AT oregonstate.edu
 
+### Course Assistant
+
+Alex Sathler
+sathlera AT oregonstate.edu
+
 ### Course Information
 
-- Class Meetings: Tuesday/Thursday 10-11:20am
-- Office Hours/Lab: TBD
-- Course Web site (Weekly calendar) <https://timothylwarren.github.io/bds311/>
-- Canvas site (Problem sets) <https://canvas.oregonstate.edu/courses/1819463>
+- Class Meetings: Tuesday/Thursday 10-11:20am, Bexell 417
+- Lab/AS Office Hours: TBD
+- TW Office Hours: By Appointment
+- Course Web site (Weekly calendar) <https://https://bds311.github.io/>
+- Canvas site (Problem sets) <https://canvas.oregonstate.edu/courses/1876848>
+- Zoom link: See Canvas Page.
 
 
 
@@ -71,9 +78,12 @@ At the completion of this course, students will be able to:
 
 There is no textbook for the class but references for recommended (and sometimes required) reading will be posted on the weekly calendar on course web site.
 
-### Homework Submission and Late Policy
+### Homework Submission; Late Policy
 
-All homework will be submitted via the DataScience Hub on Course Canvas Page. Launch the DataScience Hub from [Canvas](https://canvas.oregonstate.edu/courses/1819463/assignments/8250684?module_item_id=20893993). Also review this [reference page](https://canvas.oregonstate.edu/courses/1819463/pages/documentation-on-launching-data-science-hub?module_item_id=20893971) on the DataScience Hub. For most assignments, your submission will be a Jupyter Notebook file saved in the appropriate subdirectory on DataScience Hub. All assignments are due at 11:59 pm on the due date specified on the syllabus. Late homework will not be accepted.
+- All homework will be submitted via the DataScience Hub on Course Canvas Page. Launch the DataScience Hub from [Canvas](https://canvas.oregonstate.edu/courses/1876848/assignments/8724768). Also review this [reference page](https://canvas.oregonstate.edu/courses/1876848/pages/documentation-on-launching-data-science-hub?module_item_id=21730130) on the DataScience Hub. 
+- For most assignments, your homework will be in `/home/hub_data_share/hw` directory. Homework will be posted one week before assignment due (typically Thursdays at 11:59 pm.) To complete homework, copy the specific assignment folder (e.g. `hw01` to your personal directory (e.g. since my username is `warrenti`, I would put `hw01` in  `/home/warrenti/hw`)) 
+- We will use Gradescope to submit assignments. Be sure to save your notebook - preserving the original name (e.g. `hw01.ipynb`), then run the last grader.export() cell, which will produce a zip file, which you can download onto your local machine and then upload at appropriate location on Gradescope, which can be accessed via Canvas, or at this [link](https://www.gradescope.com/courses/341158)
+- Each student will receive one grace period to submit homework up to 72 hours late (e.g. assignment due Thursday at 11:59 would be due Sunday.) Any other late homework submissions, or submissions beyond 72 hours after deadline, will be considered at instructor discretion and receive 50% deduction.
 
 ### Course Code of Conduct (Adopted from [Carpentries](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html))
 
@@ -110,7 +120,7 @@ These are trying times. If you encounter difficulties and need assistance, it’
 
 The online Student Evaluation of Teaching system opens to students the Wednesday of week 8 and closes the Sunday before Finals Week. Students will receive notification, instructions and the link through their ONID. They may also log into the system via Online Services. Course evaluation results are crucial as they help improve courses and the learning experience of future students. Responses are anonymous (unless a student chooses to “sign” their comments agreeing to relinquish anonymity) and unavailable to instructors until after grades have been posted. The results of scaled questions and signed comments go to both the instructor and their unit head/supervisor. Anonymous (unsigned) comments go to the instructor only. 
 
-Additionally, there will be an opportunity for midterm evaluation.
+Additionally, there will be midterm course evaluation at week 5.
 
 
 ### Attribution
