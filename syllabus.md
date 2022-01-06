@@ -16,8 +16,7 @@ sathlera AT oregonstate.edu
 ### Course Information
 
 - Class Meetings: Tuesday/Thursday 10-11:20am, Bexell 417
-- Lab/AS Office Hours: TBD
-- TW Office Hours: By Appointment
+- Lab/Office Hours: Tuesday, Wednesday 7-8pm on Zoom, or by appointment
 - Course Web site (Weekly calendar) <https://https://bds311.github.io/>
 - Canvas site (Problem sets) <https://canvas.oregonstate.edu/courses/1876848>
 - Zoom link: See Canvas Page.
