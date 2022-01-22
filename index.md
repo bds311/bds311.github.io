@@ -44,10 +44,8 @@ sathlera AT oregonstate.edu
 |     |    |     |      |
 | Week 3 <br /> 01/18, 01/20    | Visualizing Biological Data |[Lecture Notes]<br>[matplotlib reference](https://matplotlib.org/stable/tutorials/index.html#tutorials)<br>[Edward Tufte](https://www.edwardtufte.com/tufte/)<br>  [Essential Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)                                                 | HW 2 <br/> Due Th 01/20|
 |     |    |     |      |
-| Week 4 <br /> 01/25, 01/27    | Data Visualization part 2 |[Lecture Notes]<br>[matplotlib tutorial](https://matplotlib.org/stable/tutorials/index.html#tutorials)<br>[Edward Tufte](https://www.edwardtufte.com/tufte/)<br>  [Data Visualization textbook](https://clauswilke.com/dataviz/)                                                 | HW 3 <br/> Due Th 01/28|
+| Week 4 <br /> 01/25, 01/27    | Data Visualization part 2 |[Lecture Notes]<br>[matplotlib tutorial](https://matplotlib.org/stable/tutorials/index.html#tutorials)<br>[Edward Tufte](https://www.edwardtufte.com/tufte/)<br>  [Data Visualization textbook](https://clauswilke.com/dataviz/)                                                 | HW 3 <br/> Due **Fri** 01/28|
 |     |    |     |      |
-
-
 | Week 5 <br /> 02/01, 02/03    | Random processes: Description and simulation  |[Lecture Notes]<br>[Inferential Thinking: Chapter 9, Randomness](https://inferentialthinking.com/chapters/09/Randomness.html)<br>[Inferential Thinking: Chapter 10, Sampling](https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html)<br>        | HW 4 <br/> Due Th 02/03 |
 |     |    |     |      |
 |  Week 6 <br /> 02/08, 02/10   | Resampling methods for hypothesis testing   |[Lecture Notes]<br>[Inferential Thinking: Chapter 11: Testing Hypotheses](https://inferentialthinking.com/chapters/11/Testing_Hypotheses.html)<br>[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)                                                   | HW 5 <br/> Due Th 02/10 |
