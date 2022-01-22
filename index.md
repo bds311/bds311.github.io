@@ -54,10 +54,8 @@ sathlera AT oregonstate.edu
 |     |    |     |      |
 | Week 8 <br /> 02/22, 02/24    | Testing and predicting relationships in data: <br />Regression, Correlation, and Simpson's Paradox   |[Inferential Thinking: Prediction](https://inferentialthinking.com/chapters/15/Prediction.html) <br> [Inference for Regression](https://inferentialthinking.com/chapters/16/Inference_for_Regression.html)            | HW 7<br/> Due Th 02/24 |
 |     |    |     |      |
-
 | Week 9 <br /> 03/01, 03/03   | Version control with Git| [Git cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)<br> [Carpentries git lesson](https://swcarpentry.github.io/git-novice/) <br> [Git references materials, exercises](https://open-source-for-researchers.github.io/open-source-workshop/) <br>[Remote Repositories](https://docs.github.com/en/github/getting-started-with-github/managing-remote-repositories)                                                | HW 8 <br/> Due Th 03/03 |
 |     |    |     |      |
-
 | Week 10 <br /> 03/08, 03/10    | Guest lecture from practicing Data Scientist; Synthesis, Future Opportunities   |                                               | HW 9 <br/> Due TBD |
 
 
