@@ -56,6 +56,6 @@ sathlera AT oregonstate.edu
 |     |    |     |      |
 | Week 9 <br /> 03/01, 03/03   | Version control with Git| [Git cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)<br> [Carpentries git lesson](https://swcarpentry.github.io/git-novice/) <br> [Git references materials, exercises](https://open-source-for-researchers.github.io/open-source-workshop/) <br>[Remote Repositories](https://docs.github.com/en/github/getting-started-with-github/managing-remote-repositories)                                                | HW 8 <br/> Due Th 03/03 |
 |     |    |     |      |
-| Week 10 <br /> 03/08, 03/10    | Guest lecture from practicing Data Scientist; Synthesis, Future Opportunities   |                                               | HW 9 <br/> Due TBD |
+| Week 10 <br /> 03/08, 03/10    | Guest lecture by [David Kroodsma](https://globalfishingwatch.org/meet-the-team/david-kroodsma/), Director of Research and Innovation at Global Fishing Watch. Synthesis, Future Opportunities   |                                               | HW 9 <br/> Due TBD |
 
 
