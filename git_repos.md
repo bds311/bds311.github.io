@@ -66,6 +66,8 @@ git pull origin main --rebase
 
 <img src="./assets/images/branch_name.jpg" width="800" align='center'/>
 
+Using the name of the remote repository (instead of `main` as is seen in the code above) could help fix any errors.
+
 Once this is done, you should see something like this:
 
 <img src="./assets/images/rebase_output.jpg" width="800" align='center'/>
