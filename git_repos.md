@@ -1,11 +1,16 @@
 ## How can I get Repositories onto my Local Machine?
 
-This page will walk you through getting remote git repositories onto your local machine so that you can work on them yourself! There are a few different ways to do this 
-1. Create a local repository using `git clone`
-2. Create a local repository using `git init`
-3. Create a personal copy of someone else's repository
+This page will walk you through getting remote git repositories onto your local machine so that you can work on them yourself! 
+GitHub provides good [documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+ for this.
 
-### 1. Create a Local Repository using Git Clone
+There are multiple ways to do this.
+1. Initialize the repository on github.com and then use `git clone` to copy to your local machine. **This will be easiest way to complete Question 1**
+2. Create a local repository using `git init` and then set the remote to match your repository on github.com
+3. Forking someone else's repository on github.com and then cloning that repository as in step 1. **This is what you will do in Question 2**
+4. Cloning someone else's repository and then setting the remote to a new repository on github.com 
+
+### Option 1. Create a Local Repository using Git Clone
 
 #### Step 1.1 - Get the Link to the Remote Repository
 **We have just initialized the git repository**. We must now **Link the local repository to the remote repository on github**. To do this, we need to copy the `.git` link to the remote repository.
@@ -91,20 +96,23 @@ git branch -d <old_local_branch_name> # This will delete the local branch that w
 
 Now, if you run the command `git show-ref` again, you should have local and remote refs with the same branch name.
 <br>
+### Option 3. To make a copy of someone else's repository
+Uou can fork someone else's repository to your personal github.com account using 'Fork' button and then clone this repository to your local machine 
+as described in *Option 1*.
 
-### 3. Create a personal copy of someone else's repository
-This requires a bit of a blend of the past two methods.
+### Option 4. Create a personal copy of someone else's repository by cloning and then resetting the remote
+This requires a bit of a blend of Options 1 and 2.
 
-#### Step 3.1 - Clone the desired remote repository
-Follow the instructions from *Part 1* and clone the desired repository.
+#### Step 4.1 - Clone the desired remote repository
+Follow the instructions from *Part 1* to clone the desired repository.
 
 *NOTE*: Because this is someone else's repository, we can edit it on our local machines, but **we cannot push our changes to the remote repository** (an exception to this rule is if the repository's owner gave you collaborator status). For this reason <u>we must now create our own remote repository that we can push changes to</u>
 
-#### Step 3.2 - Create your own remote repository
+#### Step 4.2 - Create your own remote repository
 Go to github and create a new repository with a name of your choice. Follow the instructions in **Step 1.1** to copy the link to the remote repository.
 
-#### Step 3.3 - Reset the Remote Origin in the Local Repository
-Go back to your github repository on your local computer and type the following command:
+#### Step 4.3 - Reset the Remote Origin in the Local Repository
+Go back to your Git repository on your local computer and type the following command:
 
 ```
 git remote set-url <personal_remote_repository_link>
