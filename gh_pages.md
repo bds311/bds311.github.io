@@ -1,23 +1,8 @@
-## Welcome to homework 08!
+## Creating a New GH-Pages Site
 
-This week's homework has two parts/questions (each with its own sub-goals):<br>
-#### Question 1: Create your own gh-pages website, in which you will:
-	- Create a new repository on github.com.
-	- Convert it to a gh-pages website.
-	- clone your repository on your local machine.
-#### Question 2: Further explore the mauna-loa data by working on Python on your local machine.
- 
-	- Clone a repository we've started to your local machine.
-	- Work on the Jupyter Notebook on your local computer using a `.py` file.
-	
+For this first part of homework 08 in BDS 311, you will be creating a GH-Pages site. Some of you may have started this process in class, while some of you may not have started at all. Either way, this will guide you through the process from scratch.
 
-
-*Note*: This homework assumes that you have successfully installed python and a terminal capable of running Git, and that you have a github.com personal account. Completing these requirements will differ depending on your operating system, so please do this individually. That said, if you need help with this, email us!
-
-### 1. Create your own gh-pages website
-
-
-#### Part 1.1: Creating a new Repository
+#### Part 1: Creating a new Repository
 Go to <a href='https://github.com' target='_blank'>GitHub</a>. If you are logged in to your github account, you should be able to create a new repository by clicking the green button as pictured below:
 
 <img src="./assets/images/new_repo_git.jpg" width="800" align='center'/>
@@ -30,7 +15,7 @@ Your repository must be of the format `<account-name>.github.io`. In other words
 
 This should be a public repository. No need to include a `README.md`, a `.gitignore`, or to choose a license.
 <br>
-#### Part 1.2: Convert the repository to gh-pages
+#### Part 2: Convert the repository to gh-pages
 
 Once the repository is created, you should be able to access it at the link `github.com/username/username.github.io`. If my username were `BillyBob`, the website would be `github.com/BillyBob/BillyBob.github.io`. 
 
@@ -45,21 +30,17 @@ Check to see if your screen matches the image below. Click on the button that sa
 Github will probably take you to a screen with a sample markdown file. No need to edit the file for now. Simply scroll down and hit the large green button saying `Commit Changes`.
 <br>
 
-#### Part 1.3: Get repository onto local computer.
+#### Part 3: Get repository onto local computer.
 
 Go to our class webpage on [Git Repositories](git_repos.md) to get your gh-pages repository onto your local computer.
 
-#### Part 1.4: Populating your website
+#### Part 4: Populating your website
 Your gh-pages repository should have a single Markdown file to begin with: `index.md`. Change this file and commit/push these changes to github. The changes made to `index.md` will show up on `username.github.io`.
 
 Next, on your local computer, create a new markdown file called: `experience.md`. Add a few lines about some of your work or professional experience. These changes will show up on `username.github.io/experience`.
 
 Add a link to your *experience* page in `index.md`. Commit and push these changes to the remote github repository.
 
-**IMPORTANT**: In the `hw08.ipynb` file on Jupyter Hub, add a link to your GH-Pages site in the cell labeled `Repository 1`. 
+#### Part 5: Link your GitHub Repository to HW08
 
-### Part 2: Running Python code on your Local Terminal
-
-#### Part 2.1: Fork the Mauna Loa Repository
-
-Go to the class [Mauna Loa Repository](https://github.com/bds311/mauna_loa) and fork this repository to your github.com and then clone to your local computer. If you would are struggling with this, it may be helpful to visit our [Git Repositories Walkthrough](git_repos.md)
+Back in `mauna_loa.ipynb` in your personal `mauna_loa` Git repository, paste the link to your gh-pages GitHub repository in question 1.

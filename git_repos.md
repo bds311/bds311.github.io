@@ -5,9 +5,9 @@ GitHub provides good [documentation](https://docs.github.com/en/repositories/cre
  for this.
 
 There are multiple ways to do this.
-1. Initialize the repository on github.com and then use `git clone` to copy to your local machine. **This will be easiest way to complete Question 1**
+1. Initialize the repository on github.com and then use `git clone` to copy to your local machine. **This will be easiest way to get your GH-Pages repository onto a local machine**. 
 2. Create a local repository using `git init` and then set the remote to match your repository on github.com
-3. Forking someone else's repository on github.com and then cloning that repository as in step 1. **This is what you will do in Question 2**
+3. Forking someone else's repository on github.com and then cloning that repository as in step 1. **This is what is recommended for getting the Mauna_Loa repository onto your local machine**
 4. Cloning someone else's repository and then setting the remote to a new repository on github.com 
 
 ### Option 1. Create a Local Repository using Git Clone
@@ -69,7 +69,7 @@ git pull origin main --rebase
 
 *NOTE*: If you get an error saying `couldn't find remote ref`, this is likely because your remote branch is not called `main`. To check the name of your remote branch, go to the github site for your repository, and view the branch name at the circled location below:
 
-<img src="./assets/images/branch_name.jpg" width="800" align='center'/>
+<img src="./assets/images/branches.jpg" width="800" align='center'/>
 
 Using the name of the remote repository (instead of `main` as is seen in the code above) could help fix any errors.
 
@@ -96,9 +96,19 @@ git branch -d <old_local_branch_name> # This will delete the local branch that w
 
 Now, if you run the command `git show-ref` again, you should have local and remote refs with the same branch name.
 <br>
+
 ### Option 3. To make a copy of someone else's repository
-Uou can fork someone else's repository to your personal github.com account using 'Fork' button and then clone this repository to your local machine 
-as described in *Option 1*.
+This requires a 'fork', which allows you to re-create someone else's repository entirely remotely.
+
+#### Step 3.1 - Fork the Desired Repository.
+
+Navigate to the desired repository on GitHub. Click the `fork` button and fork the repository into your personal gihub account
+
+<img src="./assets/images/fork.jpg" width="800" align='center'/>
+
+#### Step 3.2 - Clone the Forked Repository
+
+GitHub should fork the repository onto your local account. You can now follow the steps outlined in **Step 1.2** to clone the newly forked repository onto your computer. 
 
 ### Option 4. Create a personal copy of someone else's repository by cloning and then resetting the remote
 This requires a bit of a blend of Options 1 and 2.
