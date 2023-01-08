@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Syllabus <br> Biological Data Sciences 310 <br> Computational Approaches to Biological Data <br> Fall 2022, Oregon State University
+title: Syllabus <br> Biological Data Sciences 311 <br> Computational Approaches to Biological Data <br> Winter 2022, Oregon State University
 ---
 
 ### Instructor
@@ -8,36 +8,34 @@ title: Syllabus <br> Biological Data Sciences 310 <br> Computational Approaches 
 Timothy Warren  
 tim.warren AT oregonstate.edu
 
-### Teaching Assistant
-
-Michael Getz
-getzm AT oregonstate.edu
-
 ### Course Assistant
-Nate Davidson
-davidson AT oregonstate.edu
+
+Alex Sathler
+sathlera AT oregonstate.edu
 
 ### Course Information
 
-- Class Meetings: Tuesday/Thursday 10-11:20am, ALS 4000
-- Recitation Section: Wednesday 3-4:30, ALS 4000
-- Additional Help/Office hours on zoom:Thursday TBD on Zoom, or by appointment
-- Course Web site (Weekly calendar) <https://https://bds310.github.io/>
+- Class Meetings: Tuesday/Thursday 10-11:20am, Bexell 417
+- Lab/Office Hours: Tuesday, Wednesday 7-8pm on Zoom, or by appointment
+- Course Web site (Weekly calendar) <https://https://bds311.github.io/>
 - Canvas site (Problem sets) <https://canvas.oregonstate.edu/courses/1876848>
-- Zoom link: TBD.
+- Zoom link: See Canvas Page.
 
 
 
 ### Course Description
 
-Develops competency in scientific computing and data analysis with broad applications to the life sciences. Introduces the Python programming language as a versatile,
-powerful tool for visualizing and analyzing data and for performing reproducible research. Focuses on real-world datasets originating across the life sciences. Provides a foundation for future work in data-intensive disciplines.
+The theory and practice underlying widely used computational methods for biological data science. Focuses on the analysis and visualization of large data sets using Python, with broad applications to genomics, ecology, and other disciplines as well as quantitiative methods for statistical inference and prediction. Topics may include image processing, time series analysis, dimensionality reduction and resampling methods. This year's course will have a special focus on analysis of emerging data related to the Covid-19 pandemic.
 
 
-### Prerequisites and/or Corequisites
+### Prerequisites
 
-No prerequisite<br>
-Corequisite: MTH 251
+Introductory Biology: (BI223 or 223H)
+Calculus or Discrete Math: (MTH 252 or MTH 252H or MTH 228)
+Some prior programming experience (CS 161 or BOT 476)
+
+
+These prerequisites can be waived with instructor permission. I strive to make the class accessible and engaging for students with varied backgrounds and interests.
 
 
 
@@ -48,27 +46,32 @@ At the completion of this course, students will be able to:
 - Organize, visualize, and perform quantitative analysis of large biological data sets.
 - Apply data science principles to real-world data sets
 - Use Python as a tool for scientific computing
-- Navigate and use UNIX shell
+- Simulate and study random processes using resampling methods
+- Infer and predict data relationships 
+- Master version control and other methods for open, reproducible research
+- Design and implement algorithms to address canonical problems in biology
 - Solve problems in groups via active collaboration
 
 
 
 ### Topics (Also see [weekly calendar](./index.md))
 
-- Navigating the UNIX shell
 - Using Python on the Jupyter Notebook
-- Data visualization in Python
-- For loops, conditional statements, and functions
 - Analyzing tabular data with Pandas
-- Defensive Programming
-- Introduction to Bioinformativs with Python
+- Visualizing biological data
+- Random processes: description and simulation
+- Resampling methods for hypothesis testing
+- Estimating data parameters via the bootstrap
+- Testing and predicting data relationships: regression and correlation
+- Version control and reproducibility with Git
+- Analysis of data related to the Covid-19 pandemic
 
 
 
 ### Grading
 
-- 80% Average of weekly problem sets (each normalized to count equally)
-- 20% Participation and collaboration (Largely based on attendance)
+- 75% Weekly problem sets
+- 25% Participation and collaboration
 
 ### Learning Resources
 
@@ -76,10 +79,10 @@ There is no textbook for the class but references for recommended (and sometimes
 
 ### Homework Submission; Late Policy
 
-- All homework will be submitted via the DataScience Hub on Course Canvas Page. Launch the DataScience Hub from [Canvas](\(https://canvas.oregonstate.edu/courses/1896314/assignments/8967464). \
-- For most assignments, your homework will be in `/home/hub_data_share/hw` directory. Homework will be posted one week before assignment due (typically Fridays at 11:59 pm.) To complete homework, copy the specific assignment folder (e.g. `hw01` to your personal directory (e.g. since my username is `warrenti`, I would put `hw01` in  `/home/warrenti/hw`)) 
-- We will use Gradescope to submit assignments. Be sure to save your notebook - preserving the original name (e.g. `hw01.ipynb`), then run the last grader.export() cell, which will produce a zip file, which you can download onto your local machine and then upload at appropriate location on Gradescope, which can be accessed via Canvas, or at this [link](https://www.gradescope.com/courses/432157)
-- Each student will receive one grace period to submit homework up to 72 hours late (e.g. assignment due Friday at 11:59 would be due Monday.) Any other late homework submissions, or submissions beyond 72 hours after deadline, will be considered at instructor discretion and receive 50% deduction.
+- All homework will be submitted via the DataScience Hub on Course Canvas Page. Launch the DataScience Hub from [Canvas](https://canvas.oregonstate.edu/courses/1876848/assignments/8724768). Also review this [reference page](https://canvas.oregonstate.edu/courses/1876848/pages/documentation-on-launching-data-science-hub?module_item_id=21730130) on the DataScience Hub. 
+- For most assignments, your homework will be in `/home/hub_data_share/hw` directory. Homework will be posted one week before assignment due (typically Thursdays at 11:59 pm.) To complete homework, copy the specific assignment folder (e.g. `hw01` to your personal directory (e.g. since my username is `warrenti`, I would put `hw01` in  `/home/warrenti/hw`)) 
+- We will use Gradescope to submit assignments. Be sure to save your notebook - preserving the original name (e.g. `hw01.ipynb`), then run the last grader.export() cell, which will produce a zip file, which you can download onto your local machine and then upload at appropriate location on Gradescope, which can be accessed via Canvas, or at this [link](https://www.gradescope.com/courses/341158)
+- Each student will receive one grace period to submit homework up to 72 hours late (e.g. assignment due Thursday at 11:59 would be due Sunday.) Any other late homework submissions, or submissions beyond 72 hours after deadline, will be considered at instructor discretion and receive 50% deduction.
 
 ### Course Code of Conduct (Adopted from [Carpentries](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html))
 
