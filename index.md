@@ -18,13 +18,15 @@ title: BDS 311 - Computational Approaches to Biological Data
 Timothy Warren  
 tim.warren AT oregonstate.edu         
 
-#### Teaching Assistant
+#### Teaching Assistants
 <!---
  <img src="./assets/images/arsheadshot.jpg" width="75" height = "75" align='center'/>
-
-Alex Sathler
-sathlera AT oregonstate.edu
 -->
+Michael Getz
+getzm AT oregonstate.edu
+
+Nathaniel Davidson
+davidson AT oregonstate.edu
   
   
 
@@ -41,9 +43,9 @@ sathlera AT oregonstate.edu
 |:-----------------------------        |:--------------------------------- |:------------------------------------  |:----------------------                      |
 | Week 1 <br />01/10, 01/12&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;| Course Goals and Philosophy <br />Unix Shell Scripts <br /> Introduction to Pandas&nbsp; &nbsp; &nbsp;| [Jupyter Notebook](https://www.e-education.psu.edu/geog489/node/2204)&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<br>[Unix Shell](https://swcarpentry.github.io/shell-novice/) <br> [Python Examples](https://nbviewer.jupyter.org/urls/bitbucket.org/hrojas/learn-pandas/raw/master/lessons/Python_101.ipynb) &nbsp; &nbsp;  <br> [Intro to Pandas](http://swcarpentry.github.io/python-novice-gapminder/) <br> [Pandas Reference](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)| HW 1<br/> Due Fri 01/20 &nbsp; &nbsp; |
 |        |                |         |            |
-| Week 2 <br /> 01/17, 01/19    | Analyzing Tabular Data with Pandas  <br />Working with Time Series | [Lists](https://swcarpentry.github.io/python-novice-gapminder/11-lists/index.html)<br>[Numpy arrays <br> (Inferential Thinking Chap. 5)](https://inferentialthinking.com/chapters/05/Sequences.html)<br>[Loops and Functions in Pandas](https://datacarpentry.org/python-ecology-lesson/06-loops-and-functions/)                                      | HW 2 <br/> Due Fri 01/27 |
+| Week 2 <br /> 01/17, 01/19    | Analyzing Tabular Data with Pandas  <br />Working with Time Series | <!---[Lists](https://swcarpentry.github.io/python-novice-gapminder/11-lists/index.html)<br>[Numpy arrays <br> (Inferential Thinking Chap. 5)](https://inferentialthinking.com/chapters/05/Sequences.html)<br>[Loops and Functions in Pandas](https://datacarpentry.org/python-ecology-lesson/06-loops-and-functions/)    -->                               | HW 2 <br/> Due Fri 01/27 |
 |     |    |     |      |
-| Week 3 <br /> 01/24, 01/26    | Analyzing Tabular Data with Pandas <br />Visualization  |[Lecture Notes]<br>[matplotlib reference](https://matplotlib.org/stable/tutorials/index.html#tutorials)<br>[Edward Tufte](https://www.edwardtufte.com/tufte/)<br>  [Essential Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)                                                 | HW 3 <br/> Due Fri 01/20|
+| Week 3 <br /> 01/24, 01/26    | Analyzing Tabular Data with Pandas <br />Visualization  |<!---[Lecture Notes]<br>[matplotlib reference](https://matplotlib.org/stable/tutorials/index.html#tutorials)<br>[Edward Tufte](https://www.edwardtufte.com/tufte/)<br>  [Essential Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)        -->                                         | HW 3 <br/> Due Fri 01/20|
 |     |    |     |      |
 | Week 4 <br /> 01/31, 02/02    | Random processes: Description and simulation  |[Lecture Notes]<br>[matplotlib tutorial](https://matplotlib.org/stable/tutorials/index.html#tutorials)<br>[Edward Tufte](https://www.edwardtufte.com/tufte/)<br>  [Data Visualization textbook](https://clauswilke.com/dataviz/)                                                 | HW 4 <br/> Due Fri 01/28|
 |     |    |     |      |
