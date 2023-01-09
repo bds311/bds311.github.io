@@ -83,8 +83,9 @@ At the completion of this course, students will be able to:
 
 ### Learning Resources
 
-[Inferential Thinking online textbook](https://inferentialthinking.com/chapters/intro.html)
-[BDS 310 cheat sheet - Jupyter Notebook](cheatsheet.ipynb)
+[Inferential Thinking online textbook](https://inferentialthinking.com/chapters/intro.html)<br>
+[BDS 310/311 Course notes - Jupyter Notebook](./cheat_sheet.ipynb)
+<br>To be added: Course Notes in pdf form
 
 
 
