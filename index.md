@@ -32,7 +32,7 @@ sathlera AT oregonstate.edu
 
 
 
-### [Syllabus](./syllabus.md)
+### [Syllabus](./syllabus_23.md)
 
 
 ### Weekly Calendar  
