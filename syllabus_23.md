@@ -21,7 +21,7 @@ davidson AT oregonstate.edu
 ### Course Information
 
 - Class Meetings: Tuesday/Thursday 10-11:20am, ALS 4000
-- Optional Help Session: Tuesday 3-4:30, ALS 4000
+- Optional in-person Help Session: Wednesday 2-3:30, ALS 4000
 - Additional Help/Office hours on Zoom: Thursday 6-7:30, or by appointment
 - Course Web site (Weekly calendar) <https://https://bds311.github.io/>
 - Canvas site (Problem sets) <https://canvas.oregonstate.edu/courses/1876848>
