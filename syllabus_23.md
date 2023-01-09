@@ -8,7 +8,7 @@ title: Syllabus <br> Biological Data Sciences 311 <br> Computational Approaches 
 Timothy Warren  
 tim.warren AT oregonstate.edu
 
-## Teaching Assistant
+### Teaching Assistant
 
 Michael Getz
 getzm AT oregonstate.edu
@@ -31,17 +31,18 @@ davidson AT oregonstate.edu
 
 ### Course Description
 
-The theory and practice underlying widely used computational methods for biological data science. Focuses on the analysis and visualization of large data sets using Python, with broad applications to genomics, ecology, and other disciplines as well as quantitiative methods for statistical inference and prediction. Topics may include image processing, time series analysis, dimensionality reduction and resampling methods. This year's course will have a special focus on analysis of emerging data related to the Covid-19 pandemic.
+Explores theory and practice behind widely used computational methods for biological data analysis. Covers principles of programming for reproducible research as well as computational techniques for testing hypotheses, inferring dataset parameters, and making predictions from biological data.
 
 
 ### Prerequisites
 
 Introductory Biology: (BI223 or 223H)
 Calculus or Discrete Math: (MTH 252 or MTH 252H or MTH 228)
-Some prior programming experience (CS 161 or BOT 476)
+Some prior programming experience (BDS 310, CS 161, or BOT 470)
 
+Class assumes some knowledge of UNIX shell and Python numpy and matplotlib packages. There will be opportunities in first few weeks for students to catch up on these skills if necessary.
 
-These prerequisites can be waived with instructor permission. I strive to make the class accessible and engaging for students with varied backgrounds and interests.
+The prerequisites can be waived with instructor permission. I strive to make the class accessible and engaging for students with varied backgrounds and interests.
 
 
 
@@ -69,26 +70,33 @@ At the completion of this course, students will be able to:
 - Resampling methods for hypothesis testing
 - Estimating data parameters via the bootstrap
 - Testing and predicting data relationships: regression and correlation
-- Introduction to Version control and reproducibility with Git repositories
+- Introduction to version control and reproducibility with Git repositories
 - Optimization, Classification, and Introduction to Machine Learning
 
 
 
 ### Grading
 
-- Grade will be computed as the average of the 9 homework assignments. Students who submit all of the assignments with some reasonable effort will have lowest grade dropped.
+- Grade will be computed as the mean of the 9 homework assignments. Students who submit all of the assignments with a greater than 50% score will have lowest grade dropped. Alternatively, the lowest homeowrk grade will be scored as 50%.
 
 - Final grade may include up to 5% extra credit (at instructor discretion) for regular attendance and participation in class sessions. 
 
 ### Learning Resources
 
-https://inferentialthinking.com/chapters/intro.html
+[Inferential Thinking online textbook](https://inferentialthinking.com/chapters/intro.html)
+[BDS 310 cheat sheet - Jupyter Notebook](cheatsheet.ipynb)
+
+
+
+Other resources
+
+
 
 ### Homework Submission; Late Policy
 
-- All homework will be submitted via the DataScience Hub on Course Canvas Page. Launch the DataScience Hub from [Canvas](https://canvas.oregonstate.edu/courses/1876848/assignments/8724768). Also review this [reference page](https://canvas.oregonstate.edu/courses/1876848/pages/documentation-on-launching-data-science-hub?module_item_id=21730130) on the DataScience Hub. 
-- For most assignments, your homework will be in `/home/hub_data_share/hw` directory. Homework will be posted one week before assignment due (typically Thursdays at 11:59 pm.) To complete homework, copy the specific assignment folder (e.g. `hw01` to your personal directory (e.g. since my username is `warrenti`, I would put `hw01` in  `/home/warrenti/hw`)) 
-- We will use Gradescope to submit assignments. Be sure to save your notebook - preserving the original name (e.g. `hw01.ipynb`), then run the last grader.export() cell, which will produce a zip file, which you can download onto your local machine and then upload at appropriate location on Gradescope, which can be accessed via Canvas, or at this [link](https://www.gradescope.com/courses/341158)
+- Homework will be submitted via the DataScience Hub accessed through the Course Canvas Page. Launch the DataScience Hub from [Canvas](https://canvas.oregonstate.edu/courses/1876848/assignments/8724768). Also review this [reference page](https://canvas.oregonstate.edu/courses/1876848/pages/documentation-on-launching-data-science-hub?module_item_id=21730130) on the DataScience Hub. 
+- For most assignments, your homework will be in `/home/hub_data_share/hw` directory. Homework will be posted one week before assignment due (typically Fridays at 11:59 pm.) To complete homework, copy the specific assignment folder (e.g. `hw01` to your personal directory (e.g. since my username is `warrenti`, I would put `hw01` in  `/home/warrenti/hw`)) 
+- We will use Gradescope to submit assignments. Be sure to save your notebook - preserving the original name (e.g. `hw01.ipynb`), then run the last grader.export() cell, which will produce a zip file, which you can download onto your local machine and then upload this file at appropriate location on Gradescope, which can be accessed via Canvas, or at this [link](https://www.gradescope.com/courses/486040)
 - Each student will receive one grace period to submit homework up to 72 hours late (e.g. assignment due Thursday at 11:59 would be due Sunday.) Any other late homework submissions, or submissions beyond 72 hours after deadline, will be considered at instructor discretion and receive 50% deduction.
 
 ### Course Code of Conduct (Adopted from [Carpentries](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html))
@@ -119,7 +127,7 @@ Oregon State University strives to respect all religious practices. If you have 
 
 ### Resources for Support
 
-These are trying times. If you encounter difficulties and need assistance, it’s important to reach out. Consider discussing the situation with an instructor or academic advisor. Learn about resources that assist with wellness and academic success at <https://counseling.oregonstate.edu/reach-out-success>. If you are in immediate crisis, please contact the Crisis Text Line by texting OREGON to 741-741 or call the National Suicide Prevention Lifeline at 1-800-273-TALK (8255).
+If you encounter difficulties and need assistance, it’s important to reach out. Consider discussing the situation with an instructor or academic advisor. Learn about resources that assist with wellness and academic success at <https://counseling.oregonstate.edu/reach-out-success>. If you are in immediate crisis, please contact the Crisis Text Line by texting OREGON to 741-741 or call the National Suicide Prevention Lifeline at 1-800-273-TALK (8255).
 
 
 ### Opportunities for Student Evaluation
