@@ -57,6 +57,8 @@ davidson AT oregonstate.edu
 |     |    |     |      |
 |  Week 7 <br /> 02/21, 02/23   |  Testing and predicting relationships in data: <br />Regression, Correlation, Bayes' Rule and Simpson's Paradox  |<!---[Inferential Thinking: Chapter 11: Testing Hypotheses](https://inferentialthinking.com/chapters/11/Testing_Hypotheses.html)<br>[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)    -->                                                  | HW 6 <br/> Due Fri 02/24 |
 
+|     |    |     |      |
+
 | Week 8 <br /> 02/28, 03/02    |**3/2 David Kroodsma guest lecture |[Kroodsma](https://globalfishingwatch.org/meet-the-team/david-kroodsma/)<br>[Tracking identities of the global fishing fleet](https://www.science.org/doi/10.1126/sciadv.abp8200)<!---[Git cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)<br> [Carpentries git lesson](https://swcarpentry.github.io/git-novice/) <br> [Git references materials, exercises](https://open-source-for-researchers.github.io/open-source-workshop/) <br>[Remote Repositories](https://docs.github.com/en/github/getting-started-with-github/managing-remote-repositories)    -->            | HW 8<br/> Due Fri 03/10 |
 |     |    |     |      |
 | Week 9 <br /> 03/07, 03/09   |Special Topics: Genomics, Version Control, or Image Analysis|                                                | HW 9 <br/> Due TBD |
