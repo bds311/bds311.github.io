@@ -57,7 +57,7 @@ davidson AT oregonstate.edu
 |     |    |     |      |
 | Week 8 <br /> 02/28, 03/02    |**3/2 David Kroodsma guest lecture** |[Kroodsma](https://globalfishingwatch.org/meet-the-team/david-kroodsma/)<br>[Tracking identities of the global fishing fleet](https://www.science.org/doi/10.1126/sciadv.abp8200)<br>[NYT article](https://www.nytimes.com/interactive/2022/09/26/world/asia/china-fishing-south-america.html)<br>[Tracking elusive and shifting identities](https://www.science.org/doi/10.1126/sciadv.abp8200)<!---[Git cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)<br> [Carpentries git lesson](https://swcarpentry.github.io/git-novice/) <br> [Git references materials, exercises](https://open-source-for-researchers.github.io/open-source-workshop/) <br>[Remote Repositories](https://docs.github.com/en/github/getting-started-with-github/managing-remote-repositories)    -->            | HW 8<br/> Due Monday 03/13 |
 |     |    |     |      |
-| Week 9 <br /> 03/07, 03/09   |Simpson's Paradox, Intro to Machine Learning; Python scripting and Shell Scripts|                                                | HW 9 <br/> Due TBD |
+| Week 9 <br /> 03/07, 03/09   |Simpson's Paradox, Intro to Machine Learning; Python scripting and Shell Scripts|                                                | HW 9 <br/> Due Mon 03/20 |
 |     |    |     |      |
 | Week 10 <br /> 03/14, 03/16    | Synthesis & Future Opportunities   | <!---[Kroodsma et al. 2018](https://www.science.org/doi/abs/10.1126/science.aao5646)          -->                                    |  |
 
