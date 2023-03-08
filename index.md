@@ -57,7 +57,7 @@ davidson AT oregonstate.edu
 |     |    |     |      |
 | Week 8 <br /> 02/28, 03/02    |Regression; Error-minimization for Model Fitting |        | HW 8<br/> Due Monday 03/13 |
 |     |    |     |      |
-| Week 9 <br /> 03/07, 03/09   |Python Scripting. **Kroodsma guest lecture 3/9** |[Kroodsma home page](https://globalfishingwatch.org/meet-the-team/david-kroodsma/)<br>[Tracking identities of the global fishing fleet](https://www.science.org/doi/abs/10.1126/science.aao5646)<br> [Illuminating dark fishing in North Korea](https://www.science.org/doi/10.1126/sciadv.abb1197)<br>[NYT article](https://www.nytimes.com/interactive/2022/09/26/world/asia/china-fishing-south-america.html)<br>[Tracking elusive and shifting identities](https://www.science.org/doi/10.1126/sciadv.abp8200)                                  | HW 9 <br/> Due Mon 03/20 |
+| Week 9 <br /> 03/07, 03/09   |Python Scripting. **Kroodsma guest lecture 3/9** |[Kroodsma home page](https://globalfishingwatch.org/meet-the-team/david-kroodsma/)<br>[Tracking identities of the global fishing fleet](https://www.science.org/doi/abs/10.1126/science.aao5646)<br> [Illuminating dark fishing in N. Korea](https://www.science.org/doi/10.1126/sciadv.abb1197)<br>[NYT article](https://www.nytimes.com/interactive/2022/09/26/world/asia/china-fishing-south-america.html)<br>[Tracking elusive and shifting identities](https://www.science.org/doi/10.1126/sciadv.abp8200)                                  | HW 9 <br/> Due Mon 03/20 |
 |     |    |     |      |
 | Week 10 <br /> 03/14, 03/16    | Putting it all together   | <!---[Kroodsma et al. 2018](https://www.science.org/doi/abs/10.1126/science.aao5646)          -->                                    |  |
 
