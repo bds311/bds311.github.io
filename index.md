@@ -18,23 +18,21 @@ title: BDS 311 - Computational Approaches to Biological Data
 Timothy Warren  
 tim.warren AT oregonstate.edu         
 
-#### Teaching Assistants
+#### Course Assistants
 <!---
  <img src="./assets/images/arsheadshot.jpg" width="75" height = "75" align='center'/>
 -->
-Michael Getz
-getzm AT oregonstate.edu
-
-Nathaniel Davidson
+Nathaniel Davidson (Head)
 davidson AT oregonstate.edu
-  
-  
+
+Vini Karumuru
+karumurv AT oregonstate.edu
+
+Divyansh (Divy)
+divyans AT oregonstate.edu
 
 
-
-
-
-### [Syllabus](./syllabus_23.md)
+### [Syllabus](./syllabus_24.md)
 
 
 ### Weekly Calendar  
