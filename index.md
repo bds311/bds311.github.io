@@ -9,7 +9,7 @@ title: BDS 311 - Computational Approaches to Biological Data
  <img src="./assets/images/covidtrace_color_rev-01.png" width="390" height="270" align='right'/> 
 -->
  <div style="text-align: justify"> 
- A new course that focuses on fundamental aspects of data science with specific application to the biological sciences. Through a practical, problem-based approach, students will examine the theory and practice underlying widely used computational methods in biology. They will develop mastery in the analysis and visualization of large data sets using Python, with applications to genomics, ecology, and other areas of biology. Students will test hypotheses, infer dataset parameters, and make predictions via broadly applicable data science tools. 
+ Introduces the fundamentals of data science with specific application to biology. Through a practical, problem-based approach, students will examine the theory and practice underlying widely used computational methods in biology. They will develop mastery in the analysis and visualization of large data sets using Python, with applications to genomics, ecology, and other areas of biology. Students will test hypotheses, infer dataset parameters, and make predictions via broadly applicable data science tools. 
 </div>   
 
 ### Instructor
