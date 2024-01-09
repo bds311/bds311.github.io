@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Syllabus <br> Biological Data Sciences 311 <br> Computational Approaches to Biological Data <br> Winter 2023, Oregon State University
+title: Syllabus <br> Biological Data Sciences 311 <br> Computational Approaches to Biological Data <br> Winter 2024, Oregon State University
 ---
 
 ### Instructor
@@ -85,8 +85,10 @@ At the completion of this course, students will be able to:
 ### Learning Resources
 
 [Inferential Thinking online textbook](https://inferentialthinking.com/chapters/intro.html)<br>
-[BDS 310 and 311 Course notes - Jupyter Notebook](./cheat_sheet.ipynb)
-<br>Weekly references at [Weekly Calendar]
+[BDS 310 Course notes - Jupyter Notebook](./class_notes.pdf)
+[BDS 311 Course notes - To be added]
+[Python and Pandas for Data Analysis, McKinney](https://wesmckinney.com/book/python-basics)
+<br>Weekly references at [Weekly Calendar](./index.md)
 
 
 
@@ -94,7 +96,7 @@ At the completion of this course, students will be able to:
 
 ### Homework Submission; Late Policy
 
-- Initial Homework assignnments will be submitted via the Jupyter Hub accessed through the Course Canvas Page. Launch the DataScience Hub from [Canvas](https://canvas.oregonstate.edu/courses/1876848/assignments/8724768). Also review this [reference page](https://canvas.oregonstate.edu/courses/1876848/pages/documentation-on-launching-data-science-hub?module_item_id=21730130) on the DataScience Hub. 
+- Initial Homework assignnments will be submitted via the Jupyter Hub accessed through the Course Canvas Page. Launch the DataScience Hub from [Canvas](https://canvas.oregonstate.edu/courses/1944874). 
 - Your homework will be in `/home/hub_data_share/hw` directory. Homework will be posted one week before assignment due (typically Fridays at 11:59 pm.) To complete homework, copy the specific assignment folder (e.g. `hw01` to your personal directory (e.g. since my username is `warrenti`, I would put `hw01` in  `/home/warrenti/hw`)) 
 - We will use Gradescope to submit assignments. Be sure to save your notebook - preserving the original name (e.g. `hw01.ipynb`), then run the last grader.export() cell, which will produce a zip file, which you can download onto your local machine and then upload this file at appropriate location on Gradescope, which can be accessed via Canvas, or at this [link](https://www.gradescope.com/courses/486040)
 - Each student will receive one grace period to submit homework up to 72 hours late (e.g. assignment due Thursday at 11:59 would be due Sunday.) Any other late homework submissions, or submissions beyond 72 hours after deadline, will be considered at instructor discretion and receive 50% deduction.
