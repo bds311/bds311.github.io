@@ -1,45 +1,82 @@
+[home](./index.md)
 ## Creating a New GH-Pages Site
 
-For this first part of homework 08 in BDS 311, you will be creating a GH-Pages site. Some of you may have started this process in class, while some of you may not have started at all. Either way, this will guide you through the process from scratch.
+For this first part of homework 04 in BDS 311, you will be creating a GH-Pages site. Some of you may have started this process in class, while some of you may not have started at all. Either way, this will guide you through the process from scratch.
 
 #### Part 1: Creating a new Repository
 Go to <a href='https://github.com' target='_blank'>GitHub</a>. If you are logged in to your github account, you should be able to create a new repository by clicking the green button as pictured below:
 
-<img src="./assets/images/new_repo_git.jpg" width="800" align='center'/>
+<img src="./new_gh_pages/new_repo.png" width="800" align='center'/>
 
 Once clicked, you will be given options to configure your repository.
 
-Your repository must be of the format `<account-name>.github.io`. In other words, repository should include **the exact same name as your account name**. If my account name were BillyBob, my github website repository will be called `BillyBob.github.io`.
+Your repository name must be of the format `<username>.github.io`. In other words, repository should include **the exact same name as your username**. If my username were BillyBob, my github website repository will be called `BillyBob.github.io`.
 
-<img src="./assets/images/ghpages_name.jpg" width="400" align='center'/>
+You also need to select add a .README file.
 
-This should be a public repository. No need to include a `README.md`, a `.gitignore`, or to choose a license.
+Once these 2 things are done (repo name, and selecting add .README). You should click the Create repository button at the bottom of the page.
+
+<img src="./new_gh_pages/new_repo2.png" width="400" align='center'/>
+
+
 <br>
-#### Part 2: Convert the repository to gh-pages
 
-Once the repository is created, you should be able to access it at the link `github.com/username/username.github.io`. If my username were `BillyBob`, the website would be `github.com/BillyBob/BillyBob.github.io`. 
+#### Part 2: Accessing your GH pages website
 
-Once at that URL, you should be able to click on the `Settings` Tab (with a gear icon).
+After you click create repository, it will bring you to the repository page on github.
 
 In the `Settings` Tab, click on the `Pages` Icon under the `Code and Automation` section on the left of the screen.
 
-Check to see if your screen matches the image below. Click on the button that says `change theme`. Choose whatever theme you like the most.
+On the Pages section, you should see the text showing that your site is live with a provided link. It usually takes around half a minute for the link to show up, so try waiting and refreshing the page.
 
-<img src="./assets/images/pages_code_automation.jpg" width="800" align='center'/>
+```
+Note that the link to your GH pages site will be
+https://<username>.github.io/
+```
 
-Github will probably take you to a screen with a sample markdown file. No need to edit the file for now. Simply scroll down and hit the large green button saying `Commit Changes`.
+<img src="./new_gh_pages/settings.png"
+width="800" align='center'/>
+
+<img src="./new_gh_pages/live_site.png"
+width="800" align='center'/>
+
 <br>
 
-#### Part 3: Get repository onto local computer.
+Go to your GH pages website, right now it should look like this.
 
-Go to our class webpage on [Git Repositories](git_repos.md) to get your gh-pages repository onto your local computer.
+<img src="./new_gh_pages/site.png" width="800" align='center'/>
+
+<br>
+
+#### Part 3: Cloning your GH pages repo to your computer.
+
+When you clone a repository in Git, it creates a local copy of the entire repository. The cloned repository is linked to the remote repository on GitHub
+
+On github, go to your GH pages repository and under the code button, copy the HTTPS link to clone the repo.
+
+<img src="./new_gh_pages/clone.png" width="800" align='center'/>
+
+<br>
+
+Once the link is copied, go to a place in your local file system where you want to clone your GH pages repo into. This will create a folder named <username>.github.io which is a linked clone of the remote repository on Github.
+
+This means that inside <username>.github.io, you can make changes, and commit/push them to the remote repository on github.
+
+<br>
+
+<img src="./new_gh_pages/git_clone.png" width="800" align='center'/>
+
 
 #### Part 4: Populating your website
-Your gh-pages repository should have a single Markdown file to begin with: `index.md`. Change this file and commit/push these changes to github. The changes made to `index.md` will show up on `username.github.io`.
 
-Next, on your local computer, create a new markdown file called: `experience.md`. Add a few lines about some of your work or professional experience. These changes will show up on `username.github.io/experience`.
 
-Add a link to your *experience* page in `index.md`. Commit and push these changes to the remote github repository.
+Your GH pages repository should have a Markdown file `README.md`. Change this file and commit/push these changes to github. The changes made to `README.md` will show up on `<username>.github.io`.
+
+Next, on your local computer, in your repo, create a new markdown file called: `experience.md`. Add a few lines about some of your work or professional experience/plans. 
+
+Add a link to your *experience* page in `README.md`. Commit and push these changes to the remote github repository.
+
+These changes will show up in `<username>.github.io/experience`. There can by a delay between pushing and changes showing up on your site.
 
 #### Part 5: Link your GitHub Repository to HW08
 

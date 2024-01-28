@@ -60,3 +60,9 @@ divyans AT oregonstate.edu
 | Week 10 <br /> 03/12, 03/14    | Putting it all together   |                                     |  |
 
 
+<br>
+
+Link to github pages website creation instruction:
+[GH_pages](./gh_pages.md)
+
+
