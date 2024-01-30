@@ -60,7 +60,7 @@ On github, go to your GH pages repository and under the code button, copy the HT
 
 Once the link is copied, go to a place in your local file system where you want to clone your GH pages repo into. This will create a folder named <username>.github.io which is a linked clone of the remote repository on Github.
 
-This means that inside <username>.github.io, you can make changes, and commit/push them to the remote repository on github.
+`This means that inside <username>.github.io, you can make changes, and commit/push them to the remote repository on github.`
 
 <br>
 
@@ -78,6 +78,6 @@ Add a link to your *experience* page in `README.md`. Commit and push these chang
 
 These changes will show up in `<username>.github.io/experience`. There can by a delay between pushing and changes showing up on your site.
 
-#### Part 5: Link your GitHub Repository to HW08
+#### Part 5: Link your GitHub Repository to HW04
 
-Back in `mauna_loa.ipynb` in your personal `mauna_loa` Git repository, paste the link to your gh-pages GitHub repository in question 1.
+Back in `hw04.ipynb` in your hw04 repo, paste the link to your gh-pages website in question 1.
