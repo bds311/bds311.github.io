@@ -62,6 +62,9 @@ divyans AT oregonstate.edu
 
 <br>
 
+Link to hw04 directions:
+[hw04_directions](./hw04_directions.md)
+
 Link to github pages website creation instruction:
 [GH_pages](./gh_pages.md)
 
