@@ -14,7 +14,7 @@ You need to clone this repository onto jupyterhub, and work on hw04.ipynb there.
 Once you're finished with hw04.ipynb you need to save the notebook and upload the zip file to gradescope as usual. (60 pts)
 You also need to commit and push hw04.ipynb to the remote repository. (30 pts)
 
+Guide for making and cloning github classroom repo: https://bds311.github.io/git_clone
 
-Guide for
 
 
