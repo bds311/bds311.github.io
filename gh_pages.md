@@ -72,11 +72,11 @@ Once the link is copied, go to a place in your local file system where you want 
 
 Your GH pages repository should have a Markdown file `README.md`. Change this file and commit/push these changes to github. The changes made to `README.md` will show up on `<username>.github.io`.
 
-Next, on your local computer, in your repo, create a new markdown file called: `experience.md`. Add a few lines about some of your work or professional experience/plans. 
+Next, on your local computer, in your repo, create a new markdown file called: `cultural_rec.md` that lists some book, show, TV, drawing, piece of art you recommend. Try to include a link to an outside site with more information.
 
-Add a link to your *experience* page in `README.md`. Commit and push these changes to the remote github repository.
+Add a link to your *cultural_rec.md* page in `README.md`. Commit and push these changes to the remote github repository.
 
-These changes will show up in `<username>.github.io/experience`. There can by a delay between pushing and changes showing up on your site.
+These changes will show up in `<username>.github.io/cultural_rec`. There can by a delay between pushing and changes showing up on your site.
 
 #### Part 5: Link your GitHub Repository to HW04
 
