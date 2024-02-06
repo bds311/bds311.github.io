@@ -69,6 +69,6 @@ Link to github pages website creation instruction:
 [GH_pages](./gh_pages.md)
 
 Link to github classroom assignment creation and cloning
-[GH_classroom](./git_clone.md)
+[GH_classroom](git_clone.md)
 
 
