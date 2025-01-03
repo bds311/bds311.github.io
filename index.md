@@ -51,8 +51,6 @@ divyans AT oregonstate.edu
 |     |    |     |      |
 | Week 6 <br /> 01/28, 01/30    |Version Control; Introduction to Git and Github|[Inferential Thinking: Chapter 9, Randomness](https://inferentialthinking.com/chapters/09/Randomness.html)<br>[Inferential Thinking: Chapter 10, Sampling](https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html)<br>                            | HW 4 <br/> Due Fri 02/07|
 |     |     |    |      |
-
-
 |  Week 7 <br /> 02/18, 02/20   |  Testing and predicting relationships in data: <br />Regression and Correlation <br>  |<!---[Inferential Thinking: Chapter 11: Testing Hypotheses](https://inferentialthinking.com/chapters/11/Testing_Hypotheses.html)<br>[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)    -->                                                  | HW 6 <br/> Due Fri 02/28 |
 |     |    |     |      |
 | Week 8 <br /> 02/25, 02/27    |Regression; Error-minimization for Model Fitting |        | HW 7<br/> Due Mon 03/10 |
