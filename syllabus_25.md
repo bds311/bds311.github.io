@@ -107,7 +107,7 @@ At the completion of this course, students will be able to:
 ### Learning Resources
 
 [Inferential Thinking online textbook](https://inferentialthinking.com/chapters/intro.html)<br>
-[BDS 310 Course notes]((https://bds310.github,io))<br>
+[BDS 310 Course notes]((https://bds310.github.io))<br>
 [BDS 311 Course notes - To be added]<br>
 [Python and Pandas for Data Analysis, McKinney](https://wesmckinney.com/book/python-basics)
 <br>Weekly references at [Weekly Calendar](./index.md)
