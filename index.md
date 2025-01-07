@@ -47,11 +47,11 @@ divyans AT oregonstate.edu
 |     |    |     |      |
 | Week 4 <br /> 01/28, 01/30    |Application of Random processes: Permutation Testing|[Inferential Thinking: Chapter 11: Testing Hypotheses](https://inferentialthinking.com/chapters/11/Testing_Hypotheses.html)<br>[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)     | HW 4  <br/> Due Fri 02/07 |
 |     |    |     |      |
-|  Week 5 <br /> 02/04, 02/06   |  Resampling for hypothesis and estimation - the bootstrap **QUIZ 1 02/13**|[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)<br>[Chapter 13: Testing Hypotheses](https://inferentialthinking.com/chapters/13/Estimation.html)<br>[Bootstrap schematic](https://online.stat.psu.edu/stat555/node/119/)<br>[News article on origin of bootstrap](https://www.nytimes.com/1988/11/08/science/theorist-applies-computer-power-to-uncertainty-in-statistics.html)                                                  | HW 5  <br/> Due Fri 02/21 |
+|  Week 5 <br /> 02/04, 02/06   |  Resampling for hypothesis and estimation - the bootstrap **QUIZ 1 02/13**|[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)<br>[Chapter 13: Testing Hypotheses](https://inferentialthinking.com/chapters/13/Estimation.html)<br>[Bootstrap schematic](https://online.stat.psu.edu/stat555/node/119/)<br>[News article on origin of bootstrap](https://www.nytimes.com/1988/11/08/science/theorist-applies-computer-power-to-uncertainty-in-statistics.html)                                                  | HW 5  <br/> Due Mon 02/17 |
 |     |    |     |      |
-| Week 6 <br /> 02/11, 02/13    |Version Control; Introduction to Git and Github|[Inferential Thinking: Chapter 9, Randomness](https://inferentialthinking.com/chapters/09/Randomness.html)<br>[Inferential Thinking: Chapter 10, Sampling](https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html)<br>                            
+| Week 6 <br /> 02/11, 02/13    |Version Control; Introduction to Git and Github|(https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html)<br>                            
 |     |     |    |      |
-|  Week 7 <br /> 02/18, 02/20   |  Testing and predicting relationships in data: <br />Regression and Correlation <br>  |<!---[Inferential Thinking: Chapter 11: Testing Hypotheses](https://inferentialthinking.com/chapters/11/Testing_Hypotheses.html)<br>[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)    -->                                                  | HW 6 <br/> Due Fri 02/28 |
+|  Week 7 <br /> 02/18, 02/20   |  Testing and predicting relationships in data: <br />Regression and Correlation <br>  |<!---[Inferential Thinking: Chapter 11: Testing Hypotheses](https://inferentialthinking.com/chapters/11/Testing_Hypotheses.html)<br>[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)    -->                                                  *Quiz 1 02/20*| HW 6 <br/> Due Fri 02/28 |
 |     |    |     |      |
 | Week 8 <br /> 02/25, 02/27    |Regression; Error-minimization for Model Fitting |        | HW 7<br/> Due Mon 03/10 |
 |     |    |     |      |
@@ -60,15 +60,6 @@ divyans AT oregonstate.edu
 | Week 10 <br /> 03/11, 03/13    | Putting it all together   |                                     |  |
 
 
-<br>
 
-Link to hw04 directions:
-[hw04_directions](./hw04_directions.md)
-
-Link to github pages website creation instruction:
-[GH_pages](./gh_pages.md)
-
-Link to github classroom assignment creation and cloning
-[GH_classroom](git_clone.md)
 
 
