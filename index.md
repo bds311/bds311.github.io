@@ -3,6 +3,14 @@ layout: page
 title: BDS 311 - Computational Approaches to Biological Data
 ---
 
+## Winter 2025
+
+### BDS 310/311 discord server invite.
+[https://discord.gg/k7YgDYjC](https://discord.gg/k7YgDYjC)
+
+### Lecture: Tuesday/Thursday 10:00-11:20am, ALS 4000
+### Recitation Section: Wednesday (times TBD), Cordley 2602 
+
 ### Course Description
  <!---
   will replace this image
@@ -11,6 +19,9 @@ title: BDS 311 - Computational Approaches to Biological Data
  <div style="text-align: justify"> 
  Introduces the fundamentals of data science with specific application to biology. Through a practical, problem-based approach, students will examine the theory and practice underlying widely used computational methods in biology. They will develop mastery in the analysis and visualization of large data sets using Python, with applications to genomics, ecology, and other areas of biology. Students will test hypotheses, infer dataset parameters, and make predictions via broadly applicable data science tools. 
 </div>   
+
+
+### [Syllabus & Course Policies](./syllabus_25.md) 
 
 ### Instructor
 <img src="./assets/images/twheadshot_square.jpg" width="75" height="75" align='center'/>      
@@ -61,12 +72,6 @@ tim.warren AT oregonstate.edu
 </div>
 
 
-### BDS 311 discord server invite.
-[https://discord.gg/k7YgDYjC](https://discord.gg/k7YgDYjC)
-
-
-
-### [Syllabus](./syllabus_24.md)
 
 
 ### Weekly Calendar

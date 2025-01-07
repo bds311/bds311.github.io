@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Syllabus <br> Biological Data Sciences 311 <br> Computational Approaches to Biological Data <br> Winter 2024, Oregon State University
+title: Syllabus <br> Biological Data Sciences 311 <br> Computational Approaches to Biological Data <br> Winter 2025, Oregon State University
 ---
 
 ### Instructor
@@ -11,22 +11,27 @@ tim.warren AT oregonstate.edu
 ### Course Assistants
 
 Nate Davidson (Head)
-getzm AT oregonstate.edu
+davidson AT oregonstate.edu
 
 Vini Karumuru
 karumurv AT oregonstate.edu
 
-Divyansh
-divyans AT oregonstate.edu
+Andrea Schiffer
+schiffan AT oregonstate.edu
 
+Alex Maharjan
+maharjaa AT oregonstate.edu
+
+Sarah Hoekema
+hoekemas AT oregonstate.edu
 
 ### Course Information
 
 - Class Meetings: Tuesday/Thursday 10-11:20am, ALS 4000
-- Optional in-person Help Session: Wednesday 3-4:30, Peavy Forest Sciences 125
+- Optional in-person Help Session: Wednesday, Cordley 2602, exact time TBD (will either be 1-3 or 3-5 depending on survey results), 
 - Additional Help/Office hours on Zoom: Thursday 6-7:30, or by appointment
-- Course Web site (Weekly calendar) <https://https://bds311.github.io/>
-- Canvas site (Problem sets) <https://canvas.oregonstate.edu/courses/1876848>
+- Course Web site (Weekly calendar) <https://bds311.github.io/>
+- Canvas site (Problem sets) <https://canvas.oregonstate.edu/courses/1986603>
 - Zoom link: See Canvas Site.
 
 
@@ -77,8 +82,8 @@ At the completion of this course, students will be able to:
 
 ### Grading
 
-- 85% Problem Sets. Each assignment will be normalized to count equally. 
-- 10% In-class quiz (Date TBD; Likely in week 7)
+- 80% Problem Sets. Each assignment will be normalized to count equally. 
+- 15% Two In-class quizes (Week 7 and Week 9)
 - 5% Participation. Full credit given for attendance at lecture and/or homework help sessions.
 
 
@@ -136,7 +141,7 @@ If you encounter difficulties and need assistance, it’s important to reach out
 
 The online Student Evaluation of Teaching system opens to students the Wednesday of week 8 and closes the Sunday before Finals Week. Students will receive notification, instructions and the link through their ONID. They may also log into the system via Online Services. Course evaluation results are crucial as they help improve courses and the learning experience of future students. Responses are anonymous (unless a student chooses to “sign” their comments agreeing to relinquish anonymity) and unavailable to instructors until after grades have been posted. The results of scaled questions and signed comments go to both the instructor and their unit head/supervisor. Anonymous (unsigned) comments go to the instructor only. 
 
-Additionally, there will be amidterm course evaluation at the end of week 5.
+Additionally, there will be a midterm course evaluation at the end of week 5.
 
 
 
