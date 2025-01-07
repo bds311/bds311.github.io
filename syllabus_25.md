@@ -28,7 +28,7 @@ hoekemas AT oregonstate.edu
 ### Course Information
 
 - Class Meetings: Tuesday/Thursday 10-11:20am, ALS 4000
-- Optional in-person Help Session: Wednesday, Cordley 2602, exact time TBD (will either be 1-3 or 3-5 depending on survey results), 
+- Optional in-person Help Session: Wednesday, **Cordley 1100**, time TBD  
 - Additional Help/Office hours on Zoom: Thursday 6-7:30, or by appointment
 - Course Web site (Weekly calendar) <https://bds311.github.io/>
 - Canvas site (Problem sets) <https://canvas.oregonstate.edu/courses/1986603>
@@ -83,7 +83,7 @@ At the completion of this course, students will be able to:
 ### Grading
 
 - 80% Problem Sets. Each assignment will be normalized to count equally. 
-- 15% Two In-class quizes (Week 7 and Week 9)
+- 15% Two In-class quizzes (Week 6 and Week 9)
 - 5% Participation. Full credit given for attendance at lecture and/or homework help sessions.
 
 
