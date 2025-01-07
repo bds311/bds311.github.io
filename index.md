@@ -62,7 +62,8 @@ tim.warren AT oregonstate.edu
 
 
 ### BDS 311 discord server invite.
-https://discord.gg/k7YgDYjC
+[https://discord.gg/k7YgDYjC](https://discord.gg/k7YgDYjC)
+
 
 
 ### [Syllabus](./syllabus_24.md)
