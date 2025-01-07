@@ -18,18 +18,47 @@ title: BDS 311 - Computational Approaches to Biological Data
 Timothy Warren  
 tim.warren AT oregonstate.edu         
 
-#### Course Assistants
-<!---
- <img src="./assets/images/arsheadshot.jpg" width="75" height = "75" align='center'/>
--->
-Nathaniel Davidson (Head)
-davidson AT oregonstate.edu
+### Course Assistants
 
-Vini Karumuru
-karumurv AT oregonstate.edu
+ <!-- First Row -->
+<div style="text-align: left;">
+  <div style="display: inline-block; text-align: left; margin-left: 0px;">
+    <img src="./assets/images/nate_headshot.jpg" width="75" height="75" alt="Instructor 1"><br>
+    <strong>Nate Davidson (Head TA)</strong><br>
+    davidson AT oregonstate.edu
+  </div>
+<div style="display: inline-block; text-align: left; margin-left: 20px;">
+    <img src="./assets/images/blank_avatar" width="75" height="75" alt="Instructor 4"><br>
+    <strong>Alex Maharjan</strong><br>
+    maharjaa AT oregonstate.edu
+  </div>
 
-Divyansh (Divy)
-divyans AT oregonstate.edu
+  <div style="display: inline-block; text-align: left; margin-top: 20px;">
+    <img src="./assets/images/blank_avatar" width="75" height="75" alt="Instructor 4"><br>
+    <strong>Andrea Schiffer </strong><br>
+   schiffan AT oregonstate.edu
+  </div>
+  
+  
+  
+</div>
+
+
+<div style="text-align: left; margin-top: 0px;">
+  <!-- Second Row -->
+  <div style="display: inline-block; text-align: left;">
+    <img src="./assets/images/blank_avatar" width="75" height="75" alt="Divi"><br>
+    <strong>Sarah Hoekema</strong><br>
+    hoekemas AT oregonstate.edu
+  </div>
+  <div style="display: inline-block; text-align: left; margin: 30px;">
+    <img src="./assets/images/IMG_5983.JPG" width="75" height="75" alt="Vini Karumuru"><br>
+    <strong>Vini Karumuru</strong><br>
+    karumuruv AT oregonstate.edu
+  </div>
+  
+  
+</div>
 
 
 ### [Syllabus](./syllabus_24.md)
@@ -47,7 +76,7 @@ divyans AT oregonstate.edu
 |     |    |     |      |
 | Week 4 <br /> 01/28, 01/30    |Application of Random processes: Permutation Testing|[Inferential Thinking: Chapter 11: Testing Hypotheses](https://inferentialthinking.com/chapters/11/Testing_Hypotheses.html)<br>[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)     | HW 4  <br/> Due Fri 02/07 |
 |     |    |     |      |
-|  Week 5 <br /> 02/04, 02/06   |  Resampling for hypothesis and estimation - the bootstrap **QUIZ 1 02/13**|[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)<br>[Chapter 13: Testing Hypotheses](https://inferentialthinking.com/chapters/13/Estimation.html)<br>[Bootstrap schematic](https://online.stat.psu.edu/stat555/node/119/)<br>[News article on origin of bootstrap](https://www.nytimes.com/1988/11/08/science/theorist-applies-computer-power-to-uncertainty-in-statistics.html)                                                  | HW 5  <br/> Due Mon 02/17 |
+|  Week 5 <br /> 02/04, 02/06   |  Resampling for hypothesis and estimation - the bootstrap |[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)<br>[Chapter 13: Testing Hypotheses](https://inferentialthinking.com/chapters/13/Estimation.html)<br>[Bootstrap schematic](https://online.stat.psu.edu/stat555/node/119/)<br>[News article on origin of bootstrap](https://www.nytimes.com/1988/11/08/science/theorist-applies-computer-power-to-uncertainty-in-statistics.html)                                                  | HW 5  <br/> Due Mon 02/17 |
 |     |    |     |      |
 | Week 6 <br /> 02/11, 02/13    |Version Control; Introduction to Git and Github|(https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html)<br>                            
 |     |     |    |      |
