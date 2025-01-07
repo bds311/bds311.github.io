@@ -9,7 +9,7 @@ title: BDS 311 - Computational Approaches to Biological Data
 [https://discord.gg/k7YgDYjC](https://discord.gg/k7YgDYjC)
 
 ### Lecture: Tuesday/Thursday 10:00-11:20am, ALS 4000
-### Help Session: Wednesday (times TBD), Cordley 1100
+### Help Session: Wednesday (1-3pm), Cordley 1100
 
 ### Course Description
  <!---
