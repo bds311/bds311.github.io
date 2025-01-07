@@ -76,10 +76,10 @@ There is no textbook for the class but references for recommended (and sometimes
 
 ### Homework Submission; Late Policy
 
-- All homework will be submitted via the DataScience Hub on Course Canvas Page. Launch the DataScience Hub from [Canvas](\(https://canvas.oregonstate.edu/courses/1896314/assignments/8967464). \
+- All homework will be submitted via the DataScience Hub on Course Canvas Page. Launch the DataScience Hub from [Canvas](\(https://canvas.oregonstate.edu/courses/1986603/assignments). \
 - For most assignments, your homework will be in `/home/hub_data_share/hw` directory. Homework will be posted one week before assignment due (typically Fridays at 11:59 pm.) To complete homework, copy the specific assignment folder (e.g. `hw01` to your personal directory (e.g. since my username is `warrenti`, I would put `hw01` in  `/home/warrenti/hw`)) 
-- We will use Gradescope to submit assignments. Be sure to save your notebook - preserving the original name (e.g. `hw01.ipynb`), then run the last grader.export() cell, which will produce a zip file, which you can download onto your local machine and then upload at appropriate location on Gradescope, which can be accessed via Canvas, or at this [link](https://www.gradescope.com/courses/432157)
-- Each student will receive one grace period to submit homework up to 72 hours late (e.g. assignment due Friday at 11:59 would be due Monday.) Any other late homework submissions, or submissions beyond 72 hours after deadline, will be considered at instructor discretion and receive 50% deduction.
+- We will use Gradescope to submit assignments. Be sure to save your notebook - preserving the original name (e.g. `hw01.ipynb`), then run the last grader.export() cell, which will produce a zip file, which you can download onto your local machine and then upload at appropriate location on Gradescope, which can be accessed via Canvas, or at this [link](https://www.gradescope.com/courses/942369)
+- Each student will receive one grace period to submit homework up to 72 hours late (e.g. assignment due Friday at 11:59 would be due Monday 11:59pm.) Any other late homework submissions, or submissions beyond 72 hours after deadline, will be considered at instructor discretion and receive 50% deduction.
 
 ### Course Code of Conduct (Adopted from [Carpentries](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html))
 
@@ -95,7 +95,7 @@ We all should strive to foster a welcoming, supportive environment. This involve
 
 ### Collaboration and Academic Dishonesty
 
-I encourage (and will sometimes require you) to work with others on homework problems. But the work that you submit for the homework and final project must be your individual solution, implemented by you (never directly copied from other students or other sources). Rather than copying someone else's work, please ask for help!
+I encourage (and will sometimes require you) to work with others on homework problems. But the work that you submit for the homework must be your individual solution, implemented by you (never directly copied from other students or other sources). Rather than copying someone else's work, please ask for help!
 
 ### Statement Regarding Students with Disabilities
 
