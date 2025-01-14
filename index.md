@@ -72,7 +72,7 @@ tim.warren AT oregonstate.edu
 </div>
 
 ### Class notes
-- ##### [Basics of Pandas DataFrames](./basics_of_pandas_dfs.html)
+- ##### [Basics of Pandas DataFrames](./class_notes/basics_of_pandas_dfs.html)
 
 ### Weekly Calendar
 
