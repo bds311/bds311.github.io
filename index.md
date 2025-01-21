@@ -75,6 +75,19 @@ tim.warren AT oregonstate.edu
 - ##### [Basics of Pandas DataFrames](./class_notes/basics_of_pandas_dfs.html)
 - ##### [Basics of Matplotlib](./class_notes/plotting_with_matplotlib.html)
 
+
+
+### BDS 310 class notes
+
+- ##### [Intro to Python](./class_notes_310/week0.html) 
+- ##### [Intro to Unix](./class_notes_310/week1.html) 
+- ##### [Python data types and indexing](./class_notes_310/week2.html) 
+- ##### [For loops, appending to lists, and numpy commands](./class_notes_310/week3.html) 
+- ##### [Function, nested loops, logic operators, if statements, in statements](./class_notes_310/week4.html) 
+- ##### [Plotting with axes (labels and legends), np.diff, while loops](./class_notes_310/week5.html) 
+- ##### [Subsetting arrays with conditionals, using np.argmax, np.argmin and np.argsort, creating subplots](./class_notes_310/week6.html) 
+- ##### [Intro to dictionaries](./class_notes_310/week7.html) 
+
 ### Weekly Calendar
 
 |Date                                  | Topic                             |  Relevant Reading                     | Assignment                                 |
