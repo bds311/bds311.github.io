@@ -76,6 +76,7 @@ tim.warren AT oregonstate.edu
 - ##### [Basics of Matplotlib](./class_notes/plotting_with_matplotlib.html)
 - ##### [Working with Pandas](./class_notes/working_with_pandas.html)
 - ##### [Random Processes](./class_notes/random_processes.html)
+- ##### [Titanic dataset: Groupby and truth indices](./class_notes/titanic_notes/titanic.html)
 
 
 
