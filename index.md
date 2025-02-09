@@ -81,6 +81,7 @@ tim.warren AT oregonstate.edu
 - ##### [Random Processes](./class_notes/random_processes.html)
 - ##### [Titanic dataset: Groupby and truth indices](./class_notes/titanic_notes/titanic.html)
 - ##### [Permutation Tests](./class_notes/permutation_tests.html)
+- ##### [Bootstrapping](./class_notes/bootstrapping.html)
 
 
 
