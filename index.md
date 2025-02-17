@@ -5,11 +5,9 @@ title: BDS 311 - Computational Approaches to Biological Data
 
 ## Winter 2025
 
-### BDS 310/311 discord server invite.
-[https://discord.gg/k7YgDYjC](https://discord.gg/k7YgDYjC)
 
 ### Lecture: Tuesday/Thursday 10:00-11:20am, ALS 4000
-### Help Session: Wednesday (1-3pm), Cordley 1100
+### Help Session: Wednesday (1-3pm), Cordley 2212
 
 ### Course Description
  <!---
