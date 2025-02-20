@@ -112,11 +112,11 @@ tim.warren AT oregonstate.edu
 |     |     |    |      |
 |  Week 7 <br /> 02/18, 02/20   |  Introduction to building and testing models for prediction<br><br />Regression and Correlation |**Quiz 1 02/18]**                                                |  |
 |     |    |     |      |
-| Week 8 <br /> 02/25, 02/27    |Regression; Error-minimization for Model Fitting |        | HW 6<br/> Due Tue 03/04 |
+| Week 8 <br /> 02/25, 02/27    |Regression; Error-minimization for Model Fitting |        | HW 06<br/> Due Tue 03/04 |
 |     |    |     |      |
-| Week 9 <br /> 03/04, 03/06   |Introduction to Optimization and Machine Learning   |    **QUIZ 2 3/06**                              | HW 07  <br/> Due Tues 03/11   |
+| Week 9 <br /> 03/04, 03/06   |Introduction to Optimization and Machine Learning   |    **QUIZ 2 3/06**                              | |
 |     |    |     |      |
-| Week 10 <br /> 03/11, 03/13    | Putting it all together   |                                     | HW 08  <br/> Due Tues 03/18  |
+| Week 10 <br /> 03/11, 03/13    | Putting it all together   |                                     | HW 07  <br/> Due Tues 03/18  |
 
 
 
