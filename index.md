@@ -80,6 +80,7 @@ tim.warren AT oregonstate.edu
 - ##### [Titanic dataset: Groupby and truth indices](./class_notes/titanic_notes/titanic.html)
 - ##### [Permutation Tests](./class_notes/permutation_tests.html)
 - ##### [Bootstrapping](./class_notes/bootstrapping.html)
+- ##### [Prediction Models](./class_notes/prediction_models.html)
 
 
 
