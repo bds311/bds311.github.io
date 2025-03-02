@@ -81,6 +81,7 @@ tim.warren AT oregonstate.edu
 - ##### [Permutation Tests](./class_notes/permutation_tests.html)
 - ##### [Bootstrapping](./class_notes/bootstrapping.html)
 - ##### [Prediction Models](./class_notes/prediction_models.html)
+- ##### [Error Minimization](./class_notes/error_minimization.html)
 
 
 
