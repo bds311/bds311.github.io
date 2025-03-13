@@ -82,6 +82,7 @@ tim.warren AT oregonstate.edu
 - ##### [Bootstrapping](./class_notes/bootstrapping.html)
 - ##### [Prediction Models](./class_notes/prediction_models.html)
 - ##### [Error Minimization](./class_notes/error_minimization.html)
+- ##### [Classification](./class_notes/classifiers.html)
 
 
 
