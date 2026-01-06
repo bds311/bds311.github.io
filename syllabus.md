@@ -10,28 +10,31 @@ tim.warren AT oregonstate.edu
 
 ### Course Assistants
 
-Nate Davidson (Head)
-davidson AT oregonstate.edu
+- Andrea Schiffer (Head CA)<br>
+schiffan AT oregonstate.edu<br>
 
-Vini Karumuru
-karumurv AT oregonstate.edu
+- Steven Cai<br>
+caist AT oregonstate.edu
 
-Andrea Schiffer
-schiffan AT oregonstate.edu
-
-Alex Maharjan
-maharjaa AT oregonstate.edu
-
-Sarah Hoekema
+- Sarah Hoekema<br>
 hoekemas AT oregonstate.edu
+
+- Morgan Miller<br>
+morgan.miller AT oregonstate.edu    
+
+- Imre Rist<br>
+risti AT oregonstate.edu<br>
+
 
 ### Course Information
 
 - Class Meetings: Tuesday/Thursday 10-11:20am, ALS 4000
-- Optional in-person Help Session: Wednesday, **Cordley 1100**, time TBD  
-- Additional Help/Office hours on Zoom: Thursday 6-7:30, or by appointment
+- Recitation Section 1: Wednesday 1-2:30pm, Cordley 2602
+- Recitation SEction 2: Wednesday, 2-3:30pm, Cordley 2424
+
+- Additional Help/Office hours on Zoom: Thursday 5-6:30, or by appointment
 - Course Web site (Weekly calendar) <https://bds311.github.io/>
-- Canvas site (Problem sets) <https://canvas.oregonstate.edu/courses/1986603>
+- Canvas site (Problem sets) <https://canvas.oregonstate.edu/courses/2030853>
 - Zoom link: See Canvas Site.
 
 
@@ -82,9 +85,11 @@ At the completion of this course, students will be able to:
 
 ### Grading
 
-- 80% Problem Sets. Each assignment will be normalized to count equally. 
-- 15% Two In-class quizzes (Week 6 and Week 9)
-- 5% Participation. Full credit given for attendance at lecture (tracked through etherpad sign-in)
+- 60% Problem Sets. Each assignment will be normalized to count equally. 
+- 25% Two In-class quizzes (Week 6 and Week 9)
+- 15% Participation. I expect that all students attend lectures and at least half of recitation sections. There will be an online signin via Etherpad for lecture and recitation section. You should only sign if you attend in person. If you forget to sign in, you can sign in afterwards but please sign at bottom and add note that you forgot.
+
+IF your attendance at lecture is >75% of classes *and* >50% of recitation sections, you will receive full 15% participation credit. Otherwise, your credit will correspond to the overall attendance rate at lecture and recitation.  
 - Assignment of Grades
   - A >=94
   - A- 90-94
@@ -108,20 +113,26 @@ At the completion of this course, students will be able to:
 
 [Inferential Thinking online textbook](https://inferentialthinking.com/chapters/intro.html)<br>
 [BDS 310 Course notes]((https://bds310.github.io))<br>
-[BDS 311 Course notes - To be added]<br>
+[BDS 311 Course notes](./index.md)<br>
 [Python and Pandas for Data Analysis, McKinney](https://wesmckinney.com/book/python-basics)
 <br>Weekly references at [Weekly Calendar](./index.md)
 
 
+## Ways to get help
+- Attending recitation section
+- Thursday night Zoom office hours/Help
+- Post to Canvas [Canvas discussion forum]
 
+- Class Discord Channel
 
 
 ### Homework Submission; Late Policy
 
-- Initial Homework assignnments will be submitted via the Jupyter Hub accessed through the Course Canvas Page. Launch the DataScience Hub from [Canvas](https://canvas.oregonstate.edu/courses/1944874). 
+- Initial Homework assignnments will be submitted via the Jupyter Hub accessed through the Course Canvas Page. Launch the DataScience Hub from [Canvas](
+https://canvas.oregonstate.edu/courses/2030853 ). 
 - Your homework will be in `/home/hub_data_share/hw` directory. Homework will be posted one week before assignment due (typically Fridays at 11:59 pm.) To complete homework, copy the specific assignment folder (e.g. `hw01` to your personal directory (e.g. since my username is `warrenti`, I would put `hw01` in  `/home/warrenti/hw`)) 
 - We will use Gradescope to submit assignments. Be sure to save your notebook - preserving the original name (e.g. `hw01.ipynb`), then run the last grader.export() cell, which will produce a zip file, which you can download onto your local machine and then upload this file at appropriate location on Gradescope, which can be accessed via Canvas, or at this [link](https://www.gradescope.com/courses/486040)
-- Each student will receive one 72 hr grace period to submit homework late (e.g. assignment due Friday at 11:59pm submitted before Monday) and one 24 hr grace period (e.g. assignment due Friday at 11:59pm submitted Saturday.) Any other late homework submissions, or submissions beyond 72 hours after deadline, will be considered at instructor discretion and receive 50% deduction.
+- Each student will receive a single grace period to submit one homework up to 72 hours late (e.g. assignment due Friday at 11:59 would be due Monday at 11:59.) Any other late homework submissions, or submissions beyond 72 hours after deadline, will be considered at instructor discretion and receive 50% deduction. This grace period is available for a single assignment between HW01-HW06. It does not apply to HW 07.
 
 ### Course Code of Conduct (Adopted from [Carpentries](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html))
 
@@ -133,11 +144,9 @@ We all should strive to foster a welcoming, supportive environment. This involve
     <li>Treating each other with grace and courtesy</li>
     </ul>
 
+### Collaboration, Academic Dishonesty, and Generative AI Tools or other outside expert help
 
-
-### Collaboration and Academic Dishonesty
-
-I encourage (and will sometimes require you) to work with others on homework problems. But the work that you submit for the homework and final project must be your individual solution, written by you (never directly copied from other students or other sources). Rather than copying other work, please ask for help!
+I encourage (and will sometimes require you) to work with others on homework problems. But the work that you submit for homework must be your individual solution, composed by you and never directly copied from other students or other sources). Rather than copying someone else's work, please ask for help! Generative AI-based reference sources (incluing but not limited to ChatGPT, Copilot, or Claude) should be considered similarly to other reference sources (knowledgeable friends and book, books). It's OK, and sometimes very useful, to consult them for advice but never to copy a solution directly. **To receive credit, you must be able to reproduce and explain the work on your own after submitting it.**
 
 ### Statement Regarding Students with Disabilities
 
@@ -158,7 +167,13 @@ If you encounter difficulties and need assistance, it’s important to reach out
 
 The online Student Evaluation of Teaching system opens to students the Wednesday of week 8 and closes the Sunday before Finals Week. Students will receive notification, instructions and the link through their ONID. They may also log into the system via Online Services. Course evaluation results are crucial as they help improve courses and the learning experience of future students. Responses are anonymous (unless a student chooses to “sign” their comments agreeing to relinquish anonymity) and unavailable to instructors until after grades have been posted. The results of scaled questions and signed comments go to both the instructor and their unit head/supervisor. Anonymous (unsigned) comments go to the instructor only. 
 
-Additionally, there will be a midterm course evaluation at the end of week 6.
+Additionally, there will be a midterm course evaluation at the end of week 5.
+
+
+### Attribution
+
+
+Some of this course builds upon already established curricula for teaching data science and Python programming. In particular, I have consulted materials developed by [The Carpentries](https://carpentries.org/), a nonprofit foundation where I serve as an instructor as well as materials from the [Data 8: Foundations of Data Science](http://data8.org/) and [Data 100: Principles and Techniques of Data Science](https://ds100.org/) at University of California, Berkeley
 
 
 
