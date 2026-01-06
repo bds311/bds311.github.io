@@ -7,8 +7,9 @@ title: BDS 311 - Computational Approaches to Biological Data
 
 
 ### Lecture: Tuesday/Thursday 10:00-11:20am, ALS 4000
-### Recitation Section 1: Wednesday 1-2:30pm, Cordley 2602
-### Recitation Section 2: Wednesday, 2-3:30pm, Cordley 2424
+#### Recitation Section 1: Wednesday 1-2pm (2-2:30 pm help session), Cordley 2602
+
+#### Recitation Section 2: Wednesday, 2-3pm (3-3:30pm help session, Cordley 2424
 
 ### Course Description
  <!---
@@ -121,7 +122,7 @@ tim.warren AT oregonstate.edu
 |     |    |     |      |
 | Week 6 <br /> 02/10, 02/12    |The boot strap continued|**Quiz 1 02/12 ** <br><br>                            
 |     |     |    |      |
-|  Week 7 <br /> 02/17, 02/19   |  Introduction to building and testing models for prediction<br><br />Regression and Correlation |**Quiz 1 02/18]**                                                |  |
+|  Week 7 <br /> 02/17, 02/19   |  Introduction to building and testing models for prediction<br><br />Regression and Correlation |                                                |  |
 |     |    |     |      |
 | Week 8 <br /> 02/24, 02/26    |Regression; Error-minimization for Model Fitting |        | HW 06<br/> Due Tue 03/04 |
 |     |    |     |      |
