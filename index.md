@@ -8,7 +8,7 @@ title: BDS 311 - Computational Approaches to Biological Data
 
 ### Lecture: Tuesday/Thursday 10:00-11:20am, ALS 4000
 ### Recitation Section 1: Wednesday 1-2:30pm, Cordley 2602
-### Recitation SEction 2: Wednesday, 2-3:30pm, Cordley 2424
+### Recitation Section 2: Wednesday, 2-3:30pm, Cordley 2424
 
 ### Course Description
  <!---
