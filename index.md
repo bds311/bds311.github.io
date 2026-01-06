@@ -20,7 +20,7 @@ title: BDS 311 - Computational Approaches to Biological Data
 </div>   
 
 
-### [Syllabus & Course Policies](./syllabus_25.md)
+### [Syllabus & Course Policies](./syllabus.md)
 
 ### Instructor
 <img src="./assets/images/twheadshot_square.jpg" width="75" height="75" align='center'/>      
