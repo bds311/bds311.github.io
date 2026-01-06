@@ -72,7 +72,7 @@ tim.warren AT oregonstate.edu
   
 </div>
 
-<--
+<!--
   
 ### Quiz 1 Review questions:
 - ##### [quiz1 review](./class_notes/list_of_questions.html)
