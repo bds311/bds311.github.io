@@ -3,12 +3,11 @@ layout: page
 title: BDS 311 - Computational Approaches to Biological Data
 ---
 
-## Winter 2026
+## Winter 2025
 
 
 ### Lecture: Tuesday/Thursday 10:00-11:20am, ALS 4000
-### Recitation Section 1: Wednesday 1-2:30pm, Cordley 2602
-### Recitation SEction 2: Wednesday, 2-3:30pm, Cordley 2424
+### Help Session: Wednesday (1-3pm), Cordley 2212
 
 ### Course Description
  <!---
@@ -20,7 +19,7 @@ title: BDS 311 - Computational Approaches to Biological Data
 </div>   
 
 
-### [Syllabus & Course Policies](./syllabus_25.md)
+### [Syllabus & Course Policies](./syllabus_25.md) 
 
 ### Instructor
 <img src="./assets/images/twheadshot_square.jpg" width="75" height="75" align='center'/>      
@@ -30,25 +29,23 @@ tim.warren AT oregonstate.edu
 
 ### Course Assistants
 
- ### Course Assistants
-
  <!-- First Row -->
 <div style="text-align: left;">
   <div style="display: inline-block; text-align: left; margin-left: 0px;">
-    <img src="./assets/images/Andrea_head_shot.jpg" width="75" height="75" alt="Instructor 1"><br>
-    <strong>Andrea Schiffer (Head CA)</strong><br>
-    schiffan AT oregonstate.edu
+    <img src="./assets/images/nate_headshot.jpg" width="75" height="75" alt="Instructor 1"><br>
+    <strong>Nate Davidson (Head TA)</strong><br>
+    davidson AT oregonstate.edu
   </div>
 <div style="display: inline-block; text-align: left; margin-left: 20px;">
-    <img src="./assets/images/steven.jpg" width="75" height="75" alt="Instructor 4"><br>
-    <strong>Steven Cai</strong><br>
-    caist AT oregonstate.edu
+    <img src="./assets/images/blank_avatar" width="75" height="75" alt="Instructor 4"><br>
+    <strong>Alex Maharjan</strong><br>
+    maharjaa AT oregonstate.edu
   </div>
 
   <div style="display: inline-block; text-align: left; margin-top: 20px;">
-    <img src="./assets/images/sarah.jpg" width="75" height="75" alt="Instructor 4"><br>
-    <strong>Sarah Hoekema </strong><br>
-   hoekemas AT oregonstate.edu
+    <img src="./assets/images/blank_avatar" width="75" height="75" alt="Instructor 4"><br>
+    <strong>Andrea Schiffer </strong><br>
+   schiffan AT oregonstate.edu
   </div>
   
   
@@ -59,21 +56,19 @@ tim.warren AT oregonstate.edu
 <div style="text-align: left; margin-top: 0px;">
   <!-- Second Row -->
   <div style="display: inline-block; text-align: left;">
-    <img src="./assets/images/Morgan-Miller-LeBoldus-Lab.jpg" width="75" height="75" alt="Divi"><br>
-    <strong>Morgan Miller</strong><br>
-    morgan.miller AT oregonstate.edu
+    <img src="./assets/images/blank_avatar" width="75" height="75" alt="Divi"><br>
+    <strong>Sarah Hoekema</strong><br>
+    hoekemas AT oregonstate.edu
   </div>
   <div style="display: inline-block; text-align: left; margin: 30px;">
-    <img src="./assets/images/blank_avatar" width="75" height="75" alt="Vini Karumuru"><br>
-    <strong>Imre Rist</strong><br>
-    risti AT oregonstate.edu
+    <img src="./assets/images/IMG_5983.JPG" width="75" height="75" alt="Vini Karumuru"><br>
+    <strong>Vini Karumuru</strong><br>
+    karumuruv AT oregonstate.edu
   </div>
   
   
 </div>
 
-<--
-  
 ### Quiz 1 Review questions:
 - ##### [quiz1 review](./class_notes/list_of_questions.html)
 
@@ -89,21 +84,18 @@ tim.warren AT oregonstate.edu
 - ##### [Error Minimization](./class_notes/error_minimization.html)
 - ##### [Classification](./class_notes/classifiers.html)
 
--->
+
 
 ### BDS 310 class notes
 
-- ##### [Intro to Python](./class_notes_310/Intro_to_Python.html)
-- ##### [Intro to Unix](./class_notes_310/week1.html)
-- ##### [Python data types and indexing](./class_notes_310/lists_slicing.html)
-- ##### [Numpy](./class_notes_310/numpy.html)
-- ##### [For loops](./class_notes_310/for_loop.html)
-- ##### [Functions](./class_notes_310/functions.html)
-- ##### [Conditional Statements and While Loops](./class_notes_310/conditionals.html)
-- ##### [Matplotlib](./class_notes_310/matplotlib.html)
-- ##### [Dictionaries](./class_notes_310/dictionaries.html)
-- ##### [Reading and Writing Files]
-
+- ##### [Intro to Python](./class_notes_310/week0.html) 
+- ##### [Intro to Unix](./class_notes_310/week1.html) 
+- ##### [Python data types and indexing](./class_notes_310/week2.html) 
+- ##### [For loops, appending to lists, and numpy commands](./class_notes_310/week3.html) 
+- ##### [Function, nested loops, logic operators, if statements, in statements](./class_notes_310/week4.html) 
+- ##### [Plotting with axes (labels and legends), np.diff, while loops](./class_notes_310/week5.html) 
+- ##### [Subsetting arrays with conditionals, using np.argmax, np.argmin and np.argsort, creating subplots](./class_notes_310/week6.html) 
+- ##### [Intro to dictionaries](./class_notes_310/week7.html) 
 
 ### Weekly Calendar
 
