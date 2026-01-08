@@ -77,9 +77,10 @@ tim.warren AT oregonstate.edu
   
 ### Quiz 1 Review questions:
 - ##### [quiz1 review](./class_notes/list_of_questions.html)
-
+-->
 ### Class notes
 - ##### [Basics of Pandas DataFrames](./class_notes/basics_of_pandas_dfs.html)
+<!--
 - ##### [Basics of Matplotlib](./class_notes/plotting_with_matplotlib.html)
 - ##### [Working with Pandas](./class_notes/working_with_pandas.html)
 - ##### [Random Processes](./class_notes/random_processes.html)
