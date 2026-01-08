@@ -79,7 +79,7 @@ tim.warren AT oregonstate.edu
 - ##### [quiz1 review](./class_notes/list_of_questions.html)
 -->
 ### Class notes
--->
+
 - ##### [Basics of Pandas DataFrames](./class_notes/basics_of_pandas_dfs.html)
 <!--
 - ##### [Basics of Matplotlib](./class_notes/plotting_with_matplotlib.html)
