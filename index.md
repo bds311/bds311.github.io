@@ -104,7 +104,7 @@ tim.warren AT oregonstate.edu
 - ##### [Conditional Statements and While Loops](./class_notes_310/conditionals.html)
 - ##### [Matplotlib](./class_notes_310/matplotlib.html)
 - ##### [Dictionaries](./class_notes_310/dictionaries.html)
-- ##### [Reading and Writing Files]
+- ##### [Reading and Writing Files](./class_notes_310/reading_writing_files.html)
 
 
 ### Weekly Calendar
