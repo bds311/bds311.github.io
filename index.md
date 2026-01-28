@@ -100,11 +100,11 @@ tim.warren AT oregonstate.edu
 - ##### [Intro to Unix](./class_notes_310/week1.html)
 - ##### [Python data types and indexing](./class_notes_310/lists_slicing.html)
 - ##### [Numpy](./class_notes_310/numpy.html)
-- ##### [For loops](./class_notes_310/for_loop.html)
+- ##### [For loops](./class_notes_310/for_loops.html)
 - ##### [Functions](./class_notes_310/functions.html)
 - ##### [Conditional Statements and While Loops](./class_notes_310/conditionals.html)
 - ##### [Matplotlib](./class_notes_310/matplotlib.html)
-- ##### [Dictionaries](./class_notes_310/dictionaries.html)
+- ##### [Dictionaries](./class_notes_310/dictionary.html)
 - ##### [Reading and Writing Files](./class_notes_310/reading_writing_files.html)
 
 
