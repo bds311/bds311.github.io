@@ -122,7 +122,7 @@ tim.warren AT oregonstate.edu
 |     |    |     |      |
 |  Week 5 <br /> 02/03, 02/05   |  Resampling for hypothesis and estimation - the bootstrap |[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)<br>[Chapter 13: Testing Hypotheses](https://inferentialthinking.com/chapters/13/Estimation.html)<br>[Bootstrap schematic](https://online.stat.psu.edu/stat555/node/119/)<br>[News article on origin of bootstrap](https://www.nytimes.com/1988/11/08/science/theorist-applies-computer-power-to-uncertainty-in-statistics.html)                                                  | HW 5  <br/> Due **Fri 2/20** |
 |     |    |     |      |
-| Week 6 <br /> 02/10, 02/12    |The boot strap continued|**Quiz 1 02/12 ** <br><br>                            
+| Week 6 <br /> 02/10, 02/12    |The boot strap continued|**Quiz 1 02/12** <br><br>                            
 |     |     |    |      |
 |  Week 7 <br /> 02/17, 02/19   |  Introduction to building and testing models for prediction<br><br />Regression and Correlation |                                                |  |
 |     |    |     |      |
