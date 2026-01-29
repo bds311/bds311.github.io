@@ -7312,6 +7312,7 @@ a.anchor-link {
                     processEnvironments: true
                 },
                 displayAlign: 'center',
+                messageStyle: 'none',
                 CommonHTML: {
                     linebreaks: {
                     automatic: true
@@ -7516,7 +7517,18 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="More-Functionalities-of-Pandas">More Functionalities of Pandas<a class="anchor-link" href="#More-Functionalities-of-Pandas">¶</a></h2>
+<h1 id="Working-with-Pandas">Working with Pandas<a class="anchor-link" href="#Working-with-Pandas">¶</a></h1>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>The previous course notes covered some pandas basics. These course notes will cover some other functionalities of pandas that we'll use throughout the course.</p>
 </div>
 </div>
 </div>
@@ -7525,10 +7537,11 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Importing pandas</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 </pre></div>
 </div>
 </div>
@@ -7541,7 +7554,18 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Creating-a-Pandas-DataFrame-from-a-dictionary">Creating a Pandas DataFrame from a dictionary<a class="anchor-link" href="#Creating-a-Pandas-DataFrame-from-a-dictionary">¶</a></h4>
+<h2 id="More-Ways-to-Create-Pandas-DataFrames">More Ways to Create Pandas DataFrames<a class="anchor-link" href="#More-Ways-to-Create-Pandas-DataFrames">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Pandas DataFrames can be created with both dictionaries and lists of lists. With both of these data structures, you just have to make sure that the length of the lists are the same within the dictionaries values and inner lists.</p>
 </div>
 </div>
 </div>
@@ -7550,11 +7574,14 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">place_dictionary</span><span class="o">=</span><span class="p">{</span><span class="s1">'city'</span><span class="p">:[</span><span class="s1">'Madrid'</span><span class="p">,</span><span class="s1">'Shanghai'</span><span class="p">,</span><span class="s1">'Corvallis'</span><span class="p">],</span><span class="s1">'country'</span><span class="p">:[</span><span class="s1">'Spain'</span><span class="p">,</span><span class="s1">'China'</span><span class="p">,</span><span class="s1">'USA'</span><span class="p">],</span>
-                  <span class="s1">'population'</span><span class="p">:[</span><span class="mi">4000000</span><span class="p">,</span><span class="mi">26000000</span><span class="p">,</span><span class="mi">60000</span><span class="p">]}</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Creates a dictionary of places</span>
+<span class="n">place_dictionary</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'city'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'Seattle'</span><span class="p">,</span> <span class="s1">'Portland'</span><span class="p">,</span> <span class="s1">'Corvallis'</span><span class="p">,</span> <span class="s1">'San Francisco'</span><span class="p">],</span>
+                    <span class="s1">'state'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'Washington'</span><span class="p">,</span> <span class="s1">'Oregon'</span><span class="p">,</span> <span class="s1">'Oregon'</span><span class="p">,</span> <span class="s1">'California'</span><span class="p">],</span>
+                    <span class="s1">'population'</span><span class="p">:</span> <span class="p">[</span><span class="mi">725000</span><span class="p">,</span> <span class="mi">650000</span><span class="p">,</span> <span class="mi">60000</span><span class="p">,</span> <span class="mi">815000</span><span class="p">]}</span>
+<span class="c1"># Turns the dictionary into a pandas DataFrame</span>
 <span class="n">place_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">place_dictionary</span><span class="p">)</span>
 <span class="n">place_df</span>
 </pre></div>
@@ -7567,7 +7594,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -7588,28 +7615,34 @@ a.anchor-link {
 <tr style="text-align: right;">
 <th></th>
 <th>city</th>
-<th>country</th>
+<th>state</th>
 <th>population</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <th>0</th>
-<td>Madrid</td>
-<td>Spain</td>
-<td>4000000</td>
+<td>Seattle</td>
+<td>Washington</td>
+<td>725000</td>
 </tr>
 <tr>
 <th>1</th>
-<td>Shanghai</td>
-<td>China</td>
-<td>26000000</td>
+<td>Portland</td>
+<td>Oregon</td>
+<td>650000</td>
 </tr>
 <tr>
 <th>2</th>
 <td>Corvallis</td>
-<td>USA</td>
+<td>Oregon</td>
 <td>60000</td>
+</tr>
+<tr>
+<th>3</th>
+<td>San Francisco</td>
+<td>California</td>
+<td>815000</td>
 </tr>
 </tbody>
 </table>
@@ -7618,27 +7651,21 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Creating-a-Pandas-DataFrame-from-a-list-of-lists">Creating a Pandas DataFrame from a list of lists<a class="anchor-link" href="#Creating-a-Pandas-DataFrame-from-a-list-of-lists">¶</a></h4>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">place_list</span><span class="o">=</span><span class="p">[[</span><span class="s1">'Madrid'</span><span class="p">,</span> <span class="s1">'Spain'</span><span class="p">,</span> <span class="mi">4000000</span><span class="p">],</span> <span class="p">[</span><span class="s1">'Shanghai'</span><span class="p">,</span> <span class="s1">'China'</span><span class="p">,</span> <span class="mi">26000000</span><span class="p">],</span> <span class="p">[</span><span class="s1">'Corvallis'</span><span class="p">,</span> <span class="s1">'USA'</span><span class="p">,</span> <span class="mi">60000</span><span class="p">]]</span>
-<span class="n">place_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">place_list</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'city'</span><span class="p">,</span> <span class="s1">'country'</span><span class="p">,</span> <span class="s1">'population'</span><span class="p">])</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Creates a list of lists of places</span>
+<span class="n">place_list</span> <span class="o">=</span> <span class="p">[[</span><span class="s1">'Seattle'</span><span class="p">,</span> <span class="s1">'Washington'</span><span class="p">,</span> <span class="mi">725000</span><span class="p">],</span>
+              <span class="p">[</span><span class="s1">'Portland'</span><span class="p">,</span> <span class="s1">'Oregon'</span><span class="p">,</span> <span class="mi">650000</span><span class="p">],</span>
+              <span class="p">[</span><span class="s1">'Corvallis'</span><span class="p">,</span> <span class="s1">'Oregon'</span><span class="p">,</span> <span class="mi">60000</span><span class="p">],</span>
+              <span class="p">[</span><span class="s1">'San Francisco'</span><span class="p">,</span> <span class="s1">'California'</span><span class="p">,</span> <span class="mi">815000</span><span class="p">]]</span>
+<span class="c1"># Turns the list of lists into a pandas DataFrame</span>
+<span class="n">place_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">place_list</span><span class="p">,</span> <span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'city'</span><span class="p">,</span> <span class="s1">'state'</span><span class="p">,</span> <span class="s1">'population'</span><span class="p">])</span>
 <span class="n">place_df</span>
 </pre></div>
 </div>
@@ -7650,7 +7677,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -7671,28 +7698,34 @@ a.anchor-link {
 <tr style="text-align: right;">
 <th></th>
 <th>city</th>
-<th>country</th>
+<th>state</th>
 <th>population</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <th>0</th>
-<td>Madrid</td>
-<td>Spain</td>
-<td>4000000</td>
+<td>Seattle</td>
+<td>Washington</td>
+<td>725000</td>
 </tr>
 <tr>
 <th>1</th>
-<td>Shanghai</td>
-<td>China</td>
-<td>26000000</td>
+<td>Portland</td>
+<td>Oregon</td>
+<td>650000</td>
 </tr>
 <tr>
 <th>2</th>
 <td>Corvallis</td>
-<td>USA</td>
+<td>Oregon</td>
 <td>60000</td>
+</tr>
+<tr>
+<th>3</th>
+<td>San Francisco</td>
+<td>California</td>
+<td>815000</td>
 </tr>
 </tbody>
 </table>
@@ -7708,7 +7741,46 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Accessing-values-from-the-DataFrame-with-.loc">Accessing values from the DataFrame with <code>.loc</code><a class="anchor-link" href="#Accessing-values-from-the-DataFrame-with-.loc">¶</a></h4>
+<h2 id="Accessing-Values-from-DataFrames">Accessing Values from DataFrames<a class="anchor-link" href="#Accessing-Values-from-DataFrames">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Values can be accessed from a DataFrame using <code>loc</code> and <code>iloc</code>.</p>
+<p><code>loc</code> allows you to access values based on their label and index. The first argument is the index of the row you want to get the data from, while the second argument is the column label for the column you want to get the data from. Instead of using parentheses, <code>loc</code> uses square brackets.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Accesses the value in row 2 of the state column</span>
+<span class="n">place_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="s1">'state'</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>'Oregon'</pre>
+</div>
 </div>
 </div>
 </div>
@@ -7720,7 +7792,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">place_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="s1">'country'</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Accesses all the values of the population column</span>
+<span class="n">place_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="s1">'population'</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
@@ -7733,35 +7806,10 @@ a.anchor-link {
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>'China'</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">place_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="s1">'population'</span><span class="p">]</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>0     4000000
-1    26000000
-2       60000
+<pre>0    725000
+1    650000
+2     60000
+3    815000
 Name: population, dtype: int64</pre>
 </div>
 </div>
@@ -7772,10 +7820,11 @@ Name: population, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">population_df</span> <span class="o">=</span> <span class="n">place_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,[</span><span class="s1">'city'</span><span class="p">,</span> <span class="s1">'population'</span><span class="p">]]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Accesses all the values of both the city and population columns and creates a DataFrame with the data</span>
+<span class="n">population_df</span> <span class="o">=</span> <span class="n">place_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="s1">'city'</span><span class="p">,</span> <span class="s1">'population'</span><span class="p">]]</span>
 <span class="n">population_df</span>
 </pre></div>
 </div>
@@ -7787,7 +7836,7 @@ Name: population, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[36]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -7814,18 +7863,23 @@ Name: population, dtype: int64</pre>
 <tbody>
 <tr>
 <th>0</th>
-<td>Madrid</td>
-<td>4000000</td>
+<td>Seattle</td>
+<td>725000</td>
 </tr>
 <tr>
 <th>1</th>
-<td>Shanghai</td>
-<td>26000000</td>
+<td>Portland</td>
+<td>650000</td>
 </tr>
 <tr>
 <th>2</th>
 <td>Corvallis</td>
 <td>60000</td>
+</tr>
+<tr>
+<th>3</th>
+<td>San Francisco</td>
+<td>815000</td>
 </tr>
 </tbody>
 </table>
@@ -7841,7 +7895,7 @@ Name: population, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Using-.iloc-(integer-location)-as-an-alternative">Using <code>.iloc</code> (integer location) as an alternative<a class="anchor-link" href="#Using-.iloc-(integer-location)-as-an-alternative">¶</a></h4>
+<p><code>iloc</code> stands for <strong>integer location</strong>. Instead of using labels for columns, <code>iloc</code> treats the columns as indices. For our DataFrame, the indices of columns <code>city</code>, <code>state</code>, and <code>population</code> would be 0, 1, and 2, respectively. The first argument of <code>iloc</code> is the row index and the second argument is the column index. Like <code>loc</code>, <code>iloc</code> uses square brackets.</p>
 </div>
 </div>
 </div>
@@ -7850,10 +7904,11 @@ Name: population, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">place_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Accesses the value at row 1 and column 1 (city)</span>
+<span class="n">place_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
@@ -7864,9 +7919,9 @@ Name: population, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>'Madrid'</pre>
+<pre>'Seattle'</pre>
 </div>
 </div>
 </div>
@@ -7876,10 +7931,11 @@ Name: population, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">place_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Accesses the values in rows 1 and 2 and column 3 (population)</span>
+<span class="n">place_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
@@ -7890,10 +7946,10 @@ Name: population, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>0     4000000
-1    26000000
+<pre>0    725000
+1    650000
 Name: population, dtype: int64</pre>
 </div>
 </div>
@@ -7906,7 +7962,18 @@ Name: population, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Replacing-values-in-the-DataFrame">Replacing values in the DataFrame<a class="anchor-link" href="#Replacing-values-in-the-DataFrame">¶</a></h4>
+<h2 id="Replacing-Values-in-DataFrames">Replacing Values in DataFrames<a class="anchor-link" href="#Replacing-Values-in-DataFrames">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>If values in our DataFrame are incorrect, or if we simply want to update them, we can replace them using the <code>replace()</code> function. The first argument of the function is the current value in the DataFrame that we want to change, and the second argument is the value we want to replace it with.</p>
 </div>
 </div>
 </div>
@@ -7915,11 +7982,11 @@ Name: population, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Replacement in the output</span>
-<span class="n">place_df</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'Corvallis'</span><span class="p">,</span> <span class="s1">'Beavertown'</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Replaces the city of Corvallis with Beaverton</span>
+<span class="n">place_df</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'Corvallis'</span><span class="p">,</span> <span class="s1">'Beaverton'</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7930,7 +7997,7 @@ Name: population, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -7951,317 +8018,34 @@ Name: population, dtype: int64</pre>
 <tr style="text-align: right;">
 <th></th>
 <th>city</th>
-<th>country</th>
+<th>state</th>
 <th>population</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <th>0</th>
-<td>Madrid</td>
-<td>Spain</td>
-<td>4000000</td>
+<td>Seattle</td>
+<td>Washington</td>
+<td>725000</td>
 </tr>
 <tr>
 <th>1</th>
-<td>Shanghai</td>
-<td>China</td>
-<td>26000000</td>
+<td>Portland</td>
+<td>Oregon</td>
+<td>650000</td>
 </tr>
 <tr>
 <th>2</th>
-<td>Beavertown</td>
-<td>USA</td>
+<td>Beaverton</td>
+<td>Oregon</td>
 <td>60000</td>
 </tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># The original DataFrame has not changed</span>
-<span class="n">place_df</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>city</th>
-<th>country</th>
-<th>population</th>
-</tr>
-</thead>
-<tbody>
 <tr>
-<th>0</th>
-<td>Madrid</td>
-<td>Spain</td>
-<td>4000000</td>
-</tr>
-<tr>
-<th>1</th>
-<td>Shanghai</td>
-<td>China</td>
-<td>26000000</td>
-</tr>
-<tr>
-<th>2</th>
-<td>Corvallis</td>
-<td>USA</td>
-<td>60000</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Permenant replacment to the DataFrame</span>
-<span class="n">place_df</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'Corvallis'</span><span class="p">,</span> <span class="s1">'Beavertown'</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">place_df</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>city</th>
-<th>country</th>
-<th>population</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>Madrid</td>
-<td>Spain</td>
-<td>4000000</td>
-</tr>
-<tr>
-<th>1</th>
-<td>Shanghai</td>
-<td>China</td>
-<td>26000000</td>
-</tr>
-<tr>
-<th>2</th>
-<td>Beavertown</td>
-<td>USA</td>
-<td>60000</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Using a dictionary</span>
-<span class="n">replacement_dict</span><span class="o">=</span><span class="p">{</span><span class="s1">'USA'</span><span class="p">:</span><span class="s1">'United States'</span><span class="p">,</span><span class="s1">'Spain'</span><span class="p">:</span><span class="s1">'Espana'</span><span class="p">}</span>
-<span class="n">place_df</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">replacement_dict</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
-<span class="n">place_df</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>city</th>
-<th>country</th>
-<th>population</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>Madrid</td>
-<td>Espana</td>
-<td>4000000</td>
-</tr>
-<tr>
-<th>1</th>
-<td>Shanghai</td>
-<td>China</td>
-<td>26000000</td>
-</tr>
-<tr>
-<th>2</th>
-<td>Beavertown</td>
-<td>United States</td>
-<td>60000</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># A more precise way to use a replacement dictionary</span>
-<span class="n">replacement_dict</span><span class="o">=</span><span class="p">{</span><span class="s1">'country'</span><span class="p">:{</span><span class="s1">'USA'</span><span class="p">:</span><span class="s1">'United States'</span><span class="p">,</span><span class="s1">'Spain'</span><span class="p">:</span><span class="s1">'Espana'</span><span class="p">}}</span>
-<span class="n">place_df</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">replacement_dict</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
-<span class="n">place_df</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>city</th>
-<th>country</th>
-<th>population</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>Madrid</td>
-<td>Espana</td>
-<td>4000000</td>
-</tr>
-<tr>
-<th>1</th>
-<td>Shanghai</td>
-<td>China</td>
-<td>26000000</td>
-</tr>
-<tr>
-<th>2</th>
-<td>Beavertown</td>
-<td>United States</td>
-<td>60000</td>
+<th>3</th>
+<td>San Francisco</td>
+<td>California</td>
+<td>815000</td>
 </tr>
 </tbody>
 </table>
@@ -8277,7 +8061,7 @@ Name: population, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Using-.groupby()-to-combine-data-of-the-same-category">Using <code>.groupby()</code> to combine data of the same category<a class="anchor-link" href="#Using-.groupby()-to-combine-data-of-the-same-category">¶</a></h4>
+<p>However, simply using <code>replace()</code> doesn't alter the original DataFrame. We can see this when we print the DataFrame.</p>
 </div>
 </div>
 </div>
@@ -8286,12 +8070,10 @@ Name: population, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Familiarizing ourselves with the data</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"surveys.csv"</span><span class="p">)</span>
-<span class="n">df</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">place_df</span>
 </pre></div>
 </div>
 </div>
@@ -8302,7 +8084,380 @@ Name: population, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>city</th>
+<th>state</th>
+<th>population</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Seattle</td>
+<td>Washington</td>
+<td>725000</td>
+</tr>
+<tr>
+<th>1</th>
+<td>Portland</td>
+<td>Oregon</td>
+<td>650000</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Corvallis</td>
+<td>Oregon</td>
+<td>60000</td>
+</tr>
+<tr>
+<th>3</th>
+<td>San Francisco</td>
+<td>California</td>
+<td>815000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Corvallis is still in the DataFrame!</p>
+<p>Values can be permanently replaced in the DataFrame using the  <code>inplace = True</code> argument.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Permanently replaces Corvallis with Beaverton</span>
+<span class="n">place_df</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'Corvallis'</span><span class="p">,</span> <span class="s1">'Beaverton'</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">place_df</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>city</th>
+<th>state</th>
+<th>population</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Seattle</td>
+<td>Washington</td>
+<td>725000</td>
+</tr>
+<tr>
+<th>1</th>
+<td>Portland</td>
+<td>Oregon</td>
+<td>650000</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Beaverton</td>
+<td>Oregon</td>
+<td>60000</td>
+</tr>
+<tr>
+<th>3</th>
+<td>San Francisco</td>
+<td>California</td>
+<td>815000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Multiple values can be replaced in the DataFrame by using a dictionary of replacement values, with the keys being the old values and the values being the new values.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Creates a replacement dictionary</span>
+<span class="n">replacement_dict</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'Washington'</span><span class="p">:</span> <span class="s1">'WA'</span><span class="p">,</span> <span class="s1">'Oregon'</span><span class="p">:</span> <span class="s1">'OR'</span><span class="p">,</span> <span class="s1">'California'</span><span class="p">:</span> <span class="s1">'CA'</span><span class="p">}</span>
+<span class="c1"># Replaces values in the DataFrame with the replacement dictionary</span>
+<span class="n">place_df</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">replacement_dict</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">place_df</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>city</th>
+<th>state</th>
+<th>population</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Seattle</td>
+<td>WA</td>
+<td>725000</td>
+</tr>
+<tr>
+<th>1</th>
+<td>Portland</td>
+<td>OR</td>
+<td>650000</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Beaverton</td>
+<td>OR</td>
+<td>60000</td>
+</tr>
+<tr>
+<th>3</th>
+<td>San Francisco</td>
+<td>CA</td>
+<td>815000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>You can also create a nested dictionary for replacement, for more precise replacement.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Creates a nested replacement dictionary</span>
+<span class="n">replacement_dict</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'state'</span><span class="p">:</span> <span class="p">{</span><span class="s1">'Washington'</span><span class="p">:</span> <span class="s1">'WA'</span><span class="p">,</span> <span class="s1">'Oregon'</span><span class="p">:</span> <span class="s1">'OR'</span><span class="p">,</span> <span class="s1">'California'</span><span class="p">:</span> <span class="s1">'CA'</span><span class="p">}}</span>
+<span class="c1"># Replaces values in the DataFrame with the replacement dictionary</span>
+<span class="n">place_df</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">replacement_dict</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">place_df</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[37]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>city</th>
+<th>state</th>
+<th>population</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Seattle</td>
+<td>WA</td>
+<td>725000</td>
+</tr>
+<tr>
+<th>1</th>
+<td>Portland</td>
+<td>OR</td>
+<td>650000</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Corvallis</td>
+<td>OR</td>
+<td>60000</td>
+</tr>
+<tr>
+<th>3</th>
+<td>San Francisco</td>
+<td>CA</td>
+<td>815000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Grouping-Data-in-DataFrames">Grouping Data in DataFrames<a class="anchor-link" href="#Grouping-Data-in-DataFrames">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>It can be helpful to group data, such as into groups by year, species type, or other groups, in order to better analyze and understand the data.</p>
+<p>We'll work with the data from <code>surveys.csv</code> file, which contains data on various species that have been recorded between 1977 and 2002. The dataset includes a record id, the month, day, and year when the specimen was recorded, a plot id and species id, and the sex, hindfoot length, and weight of the specimen.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Reads in the species data</span>
+<span class="n">species_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"surveys.csv"</span><span class="p">)</span>
+<span class="n">species_df</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8474,16 +8629,27 @@ Name: population, dtype: int64</pre>
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Data can be grouped using the function <code>groupby()</code>. When we use <code>groupby()</code>, we also want to follow it with a function that performs some analysis of the data being grouped, such as taking the mean, summing the values, or recording the number of entries.</p>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Grouping by year and taking the average of each column that has numerical values</span>
-<span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'year'</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">numeric_only</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Groups the DataFrame by year and takes the mean</span>
+<span class="n">species_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'year'</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">numeric_only</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8494,7 +8660,7 @@ Name: population, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8773,16 +8939,27 @@ Name: population, dtype: int64</pre>
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>A single column can be isolated when using <code>groupby()</code> by including the column name in square brackets after the <code>groupby()</code> function.</p>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Isolating one specific column</span>
-<span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'year'</span><span class="p">)[</span><span class="s1">'weight'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Isolates the weight column</span>
+<span class="n">species_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'year'</span><span class="p">)[</span><span class="s1">'weight'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -8793,7 +8970,7 @@ Name: population, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[28]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>year
 1977    46.650376
@@ -8832,11 +9009,11 @@ Name: weight, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Grouping by year and counting the number of observations that are not NaN</span>
-<span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'year'</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Groups by year and counts the number of entries that aren't NaN</span>
+<span class="n">species_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'year'</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -8847,7 +9024,7 @@ Name: weight, dtype: float64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9182,17 +9359,27 @@ Name: weight, dtype: float64</pre>
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>So far, we've only been able to compute one statistic with <code>groupby()</code>. However, the function <code>agg()</code> allows us to perform different operations on different columns. In the <code>agg()</code> function, you can select the column and the statistic you'd like to calculate with the syntax <code>('column name', 'statistical operation')</code>, then assign it to a column name. This creates various summary columns in the generated DataFrame.</p>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Using different operations on different columns that generate new summary columns</span>
-<span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'year'</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">(</span><span class="n">mean_hindfoot</span> <span class="o">=</span> <span class="p">(</span><span class="s1">'hindfoot_length'</span><span class="p">,</span><span class="s1">'mean'</span><span class="p">),</span> 
-                             <span class="n">max_weight</span> <span class="o">=</span> <span class="p">(</span><span class="s1">'weight'</span><span class="p">,</span> <span class="s1">'max'</span><span class="p">))</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Groups by year and makes summary columns using agg</span>
+<span class="n">species_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'year'</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">(</span><span class="n">mean_hindfoot</span> <span class="o">=</span> <span class="p">(</span><span class="s1">'hindfoot_length'</span><span class="p">,</span> <span class="s1">'mean'</span><span class="p">),</span> <span class="n">max_weight</span> <span class="o">=</span> <span class="p">(</span><span class="s1">'weight'</span><span class="p">,</span> <span class="s1">'max'</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
@@ -9203,7 +9390,7 @@ Name: weight, dtype: float64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9377,7 +9564,18 @@ Name: weight, dtype: float64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Changing-the-indexing-with-reset_index()">Changing the indexing with <code>reset_index()</code><a class="anchor-link" href="#Changing-the-indexing-with-reset_index()">¶</a></h4>
+<h2 id="Changing-the-Indexing-of-DataFrames">Changing the Indexing of DataFrames<a class="anchor-link" href="#Changing-the-Indexing-of-DataFrames">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>When we run certain operations on DataFrames, they may generate an output DataFrame that has the rows indexed by a data column, instead of basic indices. Below is an example:</p>
 </div>
 </div>
 </div>
@@ -9386,11 +9584,11 @@ Name: weight, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># DataFrame indexed my year</span>
-<span class="n">hindfoot_df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'year'</span><span class="p">)[</span><span class="s1">'hindfoot_length'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Example of a DataFrame indexed by year</span>
+<span class="n">hindfoot_df</span> <span class="o">=</span> <span class="n">species_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'year'</span><span class="p">)[</span><span class="s1">'hindfoot_length'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
 <span class="n">hindfoot_df</span>
 </pre></div>
 </div>
@@ -9402,7 +9600,7 @@ Name: weight, dtype: float64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>year
 1977    36.276961
@@ -9436,15 +9634,26 @@ Name: hindfoot_length, dtype: float64</pre>
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>If we want the indices to be integers, rather than information like the year, we can use <code>reset_index()</code> to reset the indices. This turns the current indices into a column and creates separate indices for the rows.</p>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Year is now a column and there are seperate indicies</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Resets the indices of the DataFrame</span>
 <span class="n">hindfoot_df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -9456,7 +9665,7 @@ Name: hindfoot_length, dtype: float64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9618,16 +9827,27 @@ Name: hindfoot_length, dtype: float64</pre>
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>If you don't want to retain the current indices when resetting the indices, include the <code>drop = True</code> argument.</p>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Year is removed as the index and not included as a column</span>
-<span class="n">hindfoot_df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Resets the indices of the DataFrame and drops the year</span>
+<span class="n">hindfoot_df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -9638,7 +9858,7 @@ Name: hindfoot_length, dtype: float64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>0     36.276961
 1     37.278880
