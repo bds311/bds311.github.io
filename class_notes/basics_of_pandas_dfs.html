@@ -7312,6 +7312,7 @@ a.anchor-link {
                     processEnvironments: true
                 },
                 displayAlign: 'center',
+                messageStyle: 'none',
                 CommonHTML: {
                     linebreaks: {
                     automatic: true
@@ -7516,7 +7517,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Intro-to-Pandas">Intro to Pandas<a class="anchor-link" href="#Intro-to-Pandas">¶</a></h2>
+<h1 id="Basics-of-Pandas">Basics of Pandas<a class="anchor-link" href="#Basics-of-Pandas">¶</a></h1>
 </div>
 </div>
 </div>
@@ -7527,7 +7528,30 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Reading-a-csv-file-into-a-Pandas-DataFrame">Reading a csv file into a Pandas DataFrame<a class="anchor-link" href="#Reading-a-csv-file-into-a-Pandas-DataFrame">¶</a></h4>
+<p>Pandas is a Python library used for data analysis and data manipulation. We'll use pandas to explore the data of many different biological datasets. Pandas is a very extensive package with many complex functions, but these notes will cover basic, introductory information on pandas.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Overview-of-Pandas-DataFrames">Overview of Pandas DataFrames<a class="anchor-link" href="#Overview-of-Pandas-DataFrames">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>In pandas, we can create <strong>DataFrames</strong> with our data. DataFrames are 2-dimensional labeled data structures, consisting of rows and columns filled with data. In most pandas DataFrames, the rows are labeled by an index, starting a index 0, while the columns are labeled by a name of choice. Each column contains data, which can be of any Python data type, like an integer or string.</p>
+<p>Below is an example of a pandas DataFrame. The rows are indexed starting at 0 and going to 3. The column names are "apples" and "oranges". The data in each column are integers.</p>
 </div>
 </div>
 </div>
@@ -7542,6 +7566,45 @@ a.anchor-link {
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Creating-a-DataFrame">Creating a DataFrame<a class="anchor-link" href="#Creating-a-DataFrame">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Pandas DataFrames can be created in various ways, like manually creating the DataFrame or reading in different files to create DataFrames with. We often create our DataFrames with <strong>csv</strong> files, which stands for <strong>comma-separated values</strong>, as the data in the file is separated by commas.</p>
+<p>In pandas, the function <code>read_csv()</code> can be used to read in data and create a pandas DataFrame. Let's try it with the <code>surveys.csv</code> file, which contains data on various species that have been recorded between 1977 and 2002. The dataset includes a record id, the month, day, and year when the specimen was recorded, a plot id and species id, and the sex, hindfoot length, and weight of the specimen.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Importing packages</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -7550,7 +7613,7 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Reads in the species data</span>
 <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'surveys.csv'</span><span class="p">)</span>
 <span class="n">df</span>
 </pre></div>
@@ -7742,7 +7805,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Confirming-that-we-have-a-Pandas-DataFrame">Confirming that we have a Pandas DataFrame<a class="anchor-link" href="#Confirming-that-we-have-a-Pandas-DataFrame">¶</a></h4>
+<p>We can confirm that <code>df</code> is indeed a DataFrame by using the <code>type()</code> function.</p>
 </div>
 </div>
 </div>
@@ -7779,7 +7842,29 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Viewing-the-first-few-entries-in-the-DataFrame">Viewing the first few entries in the DataFrame<a class="anchor-link" href="#Viewing-the-first-few-entries-in-the-DataFrame">¶</a></h4>
+<p>Yep, that's a pandas DataFrame!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Viewing-DataFrame-Information">Viewing DataFrame Information<a class="anchor-link" href="#Viewing-DataFrame-Information">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>There are a few ways to view the data in a pandas DataFrame. <code>head()</code> allows you to view the first few rows of the DataFrame, while <code>tail()</code> allows you to view the last rows. You can also select the number of rows you want to view by passing the integer of row numbers as an argument to the function.</p>
 </div>
 </div>
 </div>
@@ -7788,10 +7873,11 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Views the first rows of the DataFrame</span>
+<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -7802,7 +7888,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -7901,17 +7987,6 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Viewing-the-last-few-entries-in-the-DataFrame">Viewing the last few entries in the DataFrame<a class="anchor-link" href="#Viewing-the-last-few-entries-in-the-DataFrame">¶</a></h4>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -7920,7 +7995,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Views the last 3 rows of the DataFrame</span>
+<span class="n">df</span><span class="o">.</span><span class="n">tail</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7963,30 +8039,6 @@ a.anchor-link {
 </tr>
 </thead>
 <tbody>
-<tr>
-<th>35544</th>
-<td>35545</td>
-<td>12</td>
-<td>31</td>
-<td>2002</td>
-<td>15</td>
-<td>AH</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>NaN</td>
-</tr>
-<tr>
-<th>35545</th>
-<td>35546</td>
-<td>12</td>
-<td>31</td>
-<td>2002</td>
-<td>15</td>
-<td>AH</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>NaN</td>
-</tr>
 <tr>
 <th>35546</th>
 <td>35547</td>
@@ -8037,7 +8089,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Determining-the-number-of-rows-and-columns-in-the-DataFrame">Determining the number of rows and columns in the DataFrame<a class="anchor-link" href="#Determining-the-number-of-rows-and-columns-in-the-DataFrame">¶</a></h4>
+<p>We can also view the number of rows and columns in the DataFrame using the <code>shape</code> attribute. Attributes are properties of a DataFrame that can be fetched to provide information on the DataFrame. The attribute outputs two values, with the first being the numbers of rows and the second being the number of columns.</p>
 </div>
 </div>
 </div>
@@ -8046,10 +8098,11 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">shape</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Views the shape of the DataFrame</span>
+<span class="n">df</span><span class="o">.</span><span class="n">shape</span>
 </pre></div>
 </div>
 </div>
@@ -8060,7 +8113,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>(35549, 9)</pre>
 </div>
@@ -8074,7 +8127,29 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Extracting-the-column-names-from-the-DataFrame">Extracting the column names from the DataFrame<a class="anchor-link" href="#Extracting-the-column-names-from-the-DataFrame">¶</a></h4>
+<p>Our DataFrame has 35549 rows and 9 columns.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Working-with-Columns-in-DataFrames">Working with Columns in DataFrames<a class="anchor-link" href="#Working-with-Columns-in-DataFrames">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>We can individually view the columns of a DataFrame with the <code>columns</code> attribute.</p>
 </div>
 </div>
 </div>
@@ -8086,7 +8161,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">columns</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Views the columns of a DataFrame</span>
+<span class="n">df</span><span class="o">.</span><span class="n">columns</span>
 </pre></div>
 </div>
 </div>
@@ -8113,7 +8189,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Selecting-a-column-from-the-DataFrame">Selecting a column from the DataFrame<a class="anchor-link" href="#Selecting-a-column-from-the-DataFrame">¶</a></h4>
+<p>We can also select a column to view in a pandas DataFrame. The basic syntax for this is <code>df["column name"]</code>.</p>
 </div>
 </div>
 </div>
@@ -8125,7 +8201,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">'species_id'</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Selects and views the species_id column</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">'species_id'</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
@@ -8161,7 +8238,7 @@ Name: species_id, Length: 35549, dtype: object</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="The-selected-column-is-a-Series-meaning-it-retains-the-original-index-column">The selected column is a Series meaning it retains the original index column<a class="anchor-link" href="#The-selected-column-is-a-Series-meaning-it-retains-the-original-index-column">¶</a></h4>
+<p>The selected column is a pandas Series, which we can see by using the <code>type()</code> function. A Series is a labeled array, and it retains the row indexing from the DataFrame.</p>
 </div>
 </div>
 </div>
@@ -8173,7 +8250,8 @@ Name: species_id, Length: 35549, dtype: object</pre>
 <div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">type</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'hindfoot_length'</span><span class="p">])</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Views the type of a selected column</span>
+<span class="nb">type</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'hindfoot_length'</span><span class="p">])</span>
 </pre></div>
 </div>
 </div>
@@ -8198,7 +8276,7 @@ Name: species_id, Length: 35549, dtype: object</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Getting-the-values-from-the-column-as-an-array">Getting the values from the column as an array<a class="anchor-link" href="#Getting-the-values-from-the-column-as-an-array">¶</a></h4>
+<p>If we want to get the values of the columns as an array, rather than a Series, we can use the <code>values</code> attribute.</p>
 </div>
 </div>
 </div>
@@ -8207,10 +8285,11 @@ Name: species_id, Length: 35549, dtype: object</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">'hindfoot_length'</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Gets the values of the hindfoot length column as an array</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">'hindfoot_length'</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
 </pre></div>
 </div>
 </div>
@@ -8221,9 +8300,9 @@ Name: species_id, Length: 35549, dtype: object</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>array([32., 33., 37., ..., 15., 36., nan])</pre>
+<pre>array([32., 33., 37., ..., 15., 36., nan], shape=(35549,))</pre>
 </div>
 </div>
 </div>
@@ -8235,7 +8314,7 @@ Name: species_id, Length: 35549, dtype: object</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Creating-a-new-DataFrame-from-a-subset-of-columns">Creating a new DataFrame from a subset of columns<a class="anchor-link" href="#Creating-a-new-DataFrame-from-a-subset-of-columns">¶</a></h4>
+<p>Basic analyses can be done on individual columns, like calculating the mean or maximum value.</p>
 </div>
 </div>
 </div>
@@ -8244,10 +8323,87 @@ Name: species_id, Length: 35549, dtype: object</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">length_weight_df</span><span class="o">=</span><span class="n">df</span><span class="p">[[</span><span class="s1">'hindfoot_length'</span><span class="p">,</span><span class="s1">'weight'</span><span class="p">]]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Calculates the mean hindfoot length</span>
+<span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'hindfoot_length'</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>np.float64(29.287931802277498)</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Calculates the maximum hindfoot length</span>
+<span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'hindfoot_length'</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>np.float64(70.0)</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Manipulating-DataFrames">Manipulating DataFrames<a class="anchor-link" href="#Manipulating-DataFrames">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>A new DataFrame can be created by selecting specific columns from another DataFrame. This is similar to selecting a single column, but you instead include a list of columns to subset and turn into a new DataFrame. We'll include the <code>copy()</code> code to prevent any warnings.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Creates a new DataFrame with the hindfoot length and weight columns</span>
+<span class="n">length_weight_df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s1">'hindfoot_length'</span><span class="p">,</span><span class="s1">'weight'</span><span class="p">]]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 <span class="n">length_weight_df</span>
 </pre></div>
 </div>
@@ -8259,7 +8415,7 @@ Name: species_id, Length: 35549, dtype: object</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8354,7 +8510,8 @@ Name: species_id, Length: 35549, dtype: object</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Adding-a-new-column-to-a-DataFrame">Adding a new column to a DataFrame<a class="anchor-link" href="#Adding-a-new-column-to-a-DataFrame">¶</a></h4>
+<p>New columns can be added to a DataFrame. This can be done with the code <code>df["new column name"] = column data</code>.</p>
+<p>If you include an array or list of the same length as the number of rows, then each DataFrame row will contain the data from the corresponding entry in the array or list. If you include one value for the column data, then every entry for the column will contain that value.</p>
 </div>
 </div>
 </div>
@@ -8363,11 +8520,12 @@ Name: species_id, Length: 35549, dtype: object</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="n">length_weight_df</span><span class="p">[</span><span class="s1">'sequence'</span><span class="p">]</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Adds a column with a sequence from 0 to 35548</span>
+<span class="n">length_weight_df</span><span class="p">[</span><span class="s1">'sequence'</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="c1"># Adds a column with the word "Nature"</span>
 <span class="n">length_weight_df</span><span class="p">[</span><span class="s1">'word'</span><span class="p">]</span> <span class="o">=</span> <span class="s1">'Nature'</span>
 <span class="n">length_weight_df</span>
 </pre></div>
@@ -8380,7 +8538,7 @@ Name: species_id, Length: 35549, dtype: object</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8499,7 +8657,7 @@ Name: species_id, Length: 35549, dtype: object</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Selecting-rows-that-contain-specific-values">Selecting rows that contain specific values<a class="anchor-link" href="#Selecting-rows-that-contain-specific-values">¶</a></h4>
+<p>Conditional statements can be used to select data that meets a specific condition. The basic syntax for this is <code>df[df["column name"] {conditional operator} {condition}]</code>. Below are some examples of subsetting using conditionals.</p>
 </div>
 </div>
 </div>
@@ -8508,10 +8666,11 @@ Name: species_id, Length: 35549, dtype: object</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">'species_id'</span><span class="p">]</span><span class="o">==</span><span class="s2">"DM"</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Subsets rows with the DM species</span>
+<span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">'species_id'</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"DM"</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
@@ -8522,7 +8681,7 @@ Name: species_id, Length: 35549, dtype: object</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8689,6 +8848,198 @@ Name: species_id, Length: 35549, dtype: object</pre>
 </tbody>
 </table>
 <p>10596 rows × 9 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Subsets rows that are greater than the year 1990</span>
+<span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"year"</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">1990</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>record_id</th>
+<th>month</th>
+<th>day</th>
+<th>year</th>
+<th>plot_id</th>
+<th>species_id</th>
+<th>sex</th>
+<th>hindfoot_length</th>
+<th>weight</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>18189</th>
+<td>18190</td>
+<td>1</td>
+<td>11</td>
+<td>1991</td>
+<td>7</td>
+<td>RM</td>
+<td>F</td>
+<td>17.0</td>
+<td>11.0</td>
+</tr>
+<tr>
+<th>18190</th>
+<td>18191</td>
+<td>1</td>
+<td>11</td>
+<td>1991</td>
+<td>12</td>
+<td>OL</td>
+<td>M</td>
+<td>21.0</td>
+<td>31.0</td>
+</tr>
+<tr>
+<th>18191</th>
+<td>18192</td>
+<td>1</td>
+<td>11</td>
+<td>1991</td>
+<td>17</td>
+<td>RM</td>
+<td>F</td>
+<td>16.0</td>
+<td>9.0</td>
+</tr>
+<tr>
+<th>18192</th>
+<td>18193</td>
+<td>1</td>
+<td>11</td>
+<td>1991</td>
+<td>2</td>
+<td>DM</td>
+<td>F</td>
+<td>34.0</td>
+<td>48.0</td>
+</tr>
+<tr>
+<th>18193</th>
+<td>18194</td>
+<td>1</td>
+<td>11</td>
+<td>1991</td>
+<td>12</td>
+<td>DO</td>
+<td>F</td>
+<td>36.0</td>
+<td>36.0</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>35544</th>
+<td>35545</td>
+<td>12</td>
+<td>31</td>
+<td>2002</td>
+<td>15</td>
+<td>AH</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>35545</th>
+<td>35546</td>
+<td>12</td>
+<td>31</td>
+<td>2002</td>
+<td>15</td>
+<td>AH</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>35546</th>
+<td>35547</td>
+<td>12</td>
+<td>31</td>
+<td>2002</td>
+<td>10</td>
+<td>RM</td>
+<td>F</td>
+<td>15.0</td>
+<td>14.0</td>
+</tr>
+<tr>
+<th>35547</th>
+<td>35548</td>
+<td>12</td>
+<td>31</td>
+<td>2002</td>
+<td>7</td>
+<td>DO</td>
+<td>M</td>
+<td>36.0</td>
+<td>51.0</td>
+</tr>
+<tr>
+<th>35548</th>
+<td>35549</td>
+<td>12</td>
+<td>31</td>
+<td>2002</td>
+<td>5</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+</tbody>
+</table>
+<p>17360 rows × 9 columns</p>
 </div>
 </div>
 </div>
