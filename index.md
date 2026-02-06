@@ -82,7 +82,7 @@ tim.warren AT oregonstate.edu
 - ##### [Basics of Pandas DataFrames](./class_notes/basics_of_pandas_dfs.html)
 - ##### [Basics of Matplotlib](./class_notes/plotting_with_matplotlib_axes.html)
 - ##### [Working with Pandas](./class_notes/working_with_pandas.html)
-- ##### [Random Processes](./class_notes/random_processes_0.html)
+- ##### [Random Processes](./class_notes/random_processes.html)
 
 <!--
 - ##### [Random Processes](./class_notes/random_processes.html)
