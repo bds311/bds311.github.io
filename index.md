@@ -83,6 +83,8 @@ tim.warren AT oregonstate.edu
 - ##### [Basics of Matplotlib](./class_notes/plotting_with_matplotlib_axes.html)
 - ##### [Working with Pandas](./class_notes/working_with_pandas.html)
 - ##### [Random Processes](./class_notes/random_processes.html)
+- ##### [Permutation Tests](./class_notes/permutation_tests.html)
+- ##### [Bootstrapping](./class_notes/bootstrapping.html)
 
 <!--
 - ##### [Random Processes](./class_notes/random_processes.html)
