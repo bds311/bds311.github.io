@@ -9,7 +9,7 @@ title: BDS 311 - Computational Approaches to Biological Data
 ### Lecture: Tuesday/Thursday 10:00-11:20am, ALS 4000
 #### Recitation Section 1: Wednesday 1-2pm (2-2:30 pm help session), Cordley 2602
 
-#### Recitation Section 2: Wednesday, 2-3pm (3-3:30pm help session, Cordley 2424
+#### Recitation Section 2: Wednesday, 2-3pm (3-3:30pm help session), Cordley 2424
 
 ### Course Description
  <!---
@@ -30,8 +30,6 @@ Timothy Warren
 tim.warren AT oregonstate.edu         
 
 ### Course Assistants
-
- ### Course Assistants
 
  <!-- First Row -->
 <div style="text-align: left;">
@@ -114,25 +112,25 @@ tim.warren AT oregonstate.edu
 
 |Date                                  | Topic                             |  Relevant Reading                     | Assignment                                 |
 |:-----------------------------        |:--------------------------------- |:------------------------------------  |:----------------------                      |
-| Week 1 <br />01/06, 01/08&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;| Course Goals and Philosophy <br />Unix Shell Scripts <br /> Introduction to Pandas&nbsp; &nbsp; &nbsp;| [Jupyter Notebook](https://www.e-education.psu.edu/geog489/node/2204)&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<br>[Unix Shell](https://swcarpentry.github.io/shell-novice/) <br> [Python Examples](https://nbviewer.jupyter.org/urls/bitbucket.org/hrojas/learn-pandas/raw/master/lessons/Python_101.ipynb) &nbsp; &nbsp;   <br> [Pandas 10 min Reference](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)<br>[Pandas tutorial](https://pandas.pydata.org/docs/getting_started/intro_tutorials/02_read_write.html)| HW0 (for students who did not take BDS 310) Due Fri 1/09 <br>HW 01 <br/> Due **Fri 01/16** &nbsp; &nbsp; |
+| Week 1 <br />01/06, 01/08&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;| Course Goals and Philosophy <br />Unix Shell Scripts <br /> Introduction to Pandas&nbsp; &nbsp; &nbsp;| [Jupyter Notebook](https://www.e-education.psu.edu/geog489/node/2204)&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<br>[Unix Shell](https://swcarpentry.github.io/shell-novice/) <br> [Python Examples](https://nbviewer.jupyter.org/urls/bitbucket.org/hrojas/learn-pandas/raw/master/lessons/Python_101.ipynb) &nbsp; &nbsp;   <br> [Pandas 10 min Reference](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)<br>[Pandas tutorial](https://pandas.pydata.org/docs/getting_started/intro_tutorials/02_read_write.html)| HW0 (for students who did not take BDS 310) Due **Fri 1/09** <br>HW 01 <br/> Due **Fri 01/16** &nbsp; &nbsp; |
 |        |                |         |            |
-| Week 2 <br /> 01/13, 01/15    | Analyzing Tabular Data with Pandas  <br />Time Series and Visualization | <!---[Lists](https://swcarpentry.github.io/python-novice-gapminder/11-lists/index.html)<br>[Numpy arrays <br> (Inferential Thinking Chap. 5)](https://inferentialthinking.com/chapters/05/Sequences.html)<br>[Loops and Functions in Pandas](https://datacarpentry.org/python-ecology-lesson/06-loops-and-functions/)    -->                               | HW 2   <br/> Due Fri 01/23 |
+| Week 2 <br /> 01/13, 01/15    | Analyzing Tabular Data with Pandas  <br />Time Series and Visualization | <!---[Lists](https://swcarpentry.github.io/python-novice-gapminder/11-lists/index.html)<br>[Numpy arrays <br> (Inferential Thinking Chap. 5)](https://inferentialthinking.com/chapters/05/Sequences.html)<br>[Loops and Functions in Pandas](https://datacarpentry.org/python-ecology-lesson/06-loops-and-functions/)    -->                               | HW 2   <br/> Due **Fri 01/23** |
 |     |    |     |      |
-| Week 3 <br /> 01/20, 01/22    | Pandas synthesis;Introduction to Random processes |[matplotlib tutorial](https://matplotlib.org/stable/tutorials/index.html#tutorials)<br>[Edward Tufte](https://www.edwardtufte.com/tufte/)<br>  [Data Visualization textbook](https://clauswilke.com/dataviz/)                                                           | HW 3 <br/> Due Fri 01/30|
+| Week 3 <br /> 01/20, 01/22    | Pandas synthesis; Introduction to Random processes |[matplotlib tutorial](https://matplotlib.org/stable/tutorials/index.html#tutorials)<br>[Edward Tufte](https://www.edwardtufte.com/tufte/)<br>  [Data Visualization textbook](https://clauswilke.com/dataviz/)                                                           | HW 3 <br/> Due **Fri 01/30**|
 |     |    |     |      |
-| Week 4 <br /> 01/27, 01/29    |Application of Random processes: Permutation Testing|[Inferential Thinking: Chapter 11: Testing Hypotheses](https://inferentialthinking.com/chapters/11/Testing_Hypotheses.html)<br>[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)     | HW 4  <br/> Due Fri 02/06 |
+| Week 4 <br /> 01/27, 01/29    |Application of Random processes: Permutation Testing|[Inferential Thinking: Chapter 11: Testing Hypotheses](https://inferentialthinking.com/chapters/11/Testing_Hypotheses.html)<br>[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)     | HW 4  <br/> Due **Fri 02/06** |
 |     |    |     |      |
 |  Week 5 <br /> 02/03, 02/05   |  Resampling for hypothesis and estimation - the bootstrap |[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)<br>[Chapter 13: Testing Hypotheses](https://inferentialthinking.com/chapters/13/Estimation.html)<br>[Bootstrap schematic](https://online.stat.psu.edu/stat555/node/119/)<br>[News article on origin of bootstrap](https://www.nytimes.com/1988/11/08/science/theorist-applies-computer-power-to-uncertainty-in-statistics.html)                                                  | HW 5  <br/> Due **Fri 2/20** |
 |     |    |     |      |
-| Week 6 <br /> 02/10, 02/12    |The boot strap continued|**Quiz 1 02/12** <br><br>                            
+| Week 6 <br /> 02/10, 02/12    |The bootstrap continued|**Quiz 1 02/12** <br><br>                            
 |     |     |    |      |
 |  Week 7 <br /> 02/17, 02/19   |  Introduction to building and testing models for prediction<br><br />Regression and Correlation |                                                |  |
 |     |    |     |      |
-| Week 8 <br /> 02/24, 02/26    |Regression; Error-minimization for Model Fitting |        | HW 06<br/> Due Tue 03/04 |
+| Week 8 <br /> 02/24, 02/26    |Regression; Error-minimization for Model Fitting |        | HW 06<br/> Due **Tue 03/04** |
 |     |    |     |      |
 | Week 9 <br /> 03/03, 03/05   |Introduction to Optimization and Machine Learning   |    **QUIZ 2 3/05**                              | |
 |     |    |     |      |
-| Week 10 <br /> 03/10, 03/12    | Putting it all together   |                                     | HW 07  <br/> Due Wed 03/18  |
+| Week 10 <br /> 03/10, 03/12    | Putting it all together   |                                     | HW 07  <br/> Due **Wed 03/18**  |
 
 
 
