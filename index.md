@@ -120,15 +120,15 @@ tim.warren AT oregonstate.edu
 |     |    |     |      |
 | Week 4 <br /> 01/27, 01/29    |Application of Random processes: Permutation Testing|[Inferential Thinking: Chapter 11: Testing Hypotheses](https://inferentialthinking.com/chapters/11/Testing_Hypotheses.html)<br>[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)     | HW 4  <br/> Due **Fri 02/06** |
 |     |    |     |      |
-|  Week 5 <br /> 02/03, 02/05   |  Resampling for hypothesis and estimation - the bootstrap |[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)<br>[Chapter 13: Testing Hypotheses](https://inferentialthinking.com/chapters/13/Estimation.html)<br>[Bootstrap schematic](https://online.stat.psu.edu/stat555/node/119/)<br>[News article on origin of bootstrap](https://www.nytimes.com/1988/11/08/science/theorist-applies-computer-power-to-uncertainty-in-statistics.html)                                                  | HW 5  <br/> Due **Fri 2/20** |
+|  Week 5 <br /> 02/03, 02/05   |  Resampling for hypothesis and estimation - the bootstrap |[Chapter 12: Comparing Two Samples](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)<br>[Illustrated permutation test](https://www.jwilber.me/permutationtest/)<br>[Chapter 13: Estimation](https://inferentialthinking.com/chapters/13/Estimation.html)<br>[Bootstrap schematic](https://online.stat.psu.edu/stat555/node/119/)<br>[News article on origin of bootstrap](https://www.nytimes.com/1988/11/08/science/theorist-applies-computer-power-to-uncertainty-in-statistics.html)                                                  | HW 5  <br/> Due **Fri 2/20** |
 |     |    |     |      |
 | Week 6 <br /> 02/10, 02/12    |The bootstrap continued|**Quiz 1 02/12** <br><br>                            
 |     |     |    |      |
 |  Week 7 <br /> 02/17, 02/19   |  Introduction to building and testing models for prediction<br><br />Regression and Correlation |                                                |  |
 |     |    |     |      |
-| Week 8 <br /> 02/24, 02/26    |Regression; Error-minimization for Model Fitting |        | HW 06<br/> Due **Tue 03/04** |
+| Week 8 <br /> 02/24, 02/26    |Regression; Error-minimization for Model Fitting |        | HW 06<br/> Due **Fri 02/27** |
 |     |    |     |      |
-| Week 9 <br /> 03/03, 03/05   |Introduction to Optimization and Machine Learning   |    **QUIZ 2 3/05**                              | |
+| Week 9 <br /> 03/03, 03/05   |Introduction to Optimization and Machine Learning   |    **QUIZ 2 Thursday 3/05**                              | |
 |     |    |     |      |
 | Week 10 <br /> 03/10, 03/12    | Putting it all together   |                                     | HW 07  <br/> Due **Wed 03/18**  |
 
