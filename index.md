@@ -84,15 +84,6 @@ tim.warren AT oregonstate.edu
 - ##### [Permutation Tests](./class_notes/permutation_tests.html)
 - ##### [Bootstrapping](./class_notes/bootstrapping.html)
 - ##### [Prediction Models](./class_notes/prediction_models.html)
-<!--
-- ##### [Random Processes](./class_notes/random_processes.html)
-- ##### [Titanic dataset: Groupby and truth indices](./class_notes/titanic_notes/titanic.html)
-- ##### [Permutation Tests](./class_notes/permutation_tests.html)
-- ##### [Bootstrapping](./class_notes/bootstrapping.html)
-- ##### [Prediction Models](./class_notes/prediction_models.html)
-- ##### [Error Minimization](./class_notes/error_minimization.html)
-- ##### [Classification](./class_notes/classifiers.html)
--->
 
 ### BDS 310 class notes
 
