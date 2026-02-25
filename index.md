@@ -84,7 +84,7 @@ tim.warren AT oregonstate.edu
 - ##### [Permutation Tests](./class_notes/permutation_tests.html)
 - ##### [Bootstrapping](./class_notes/bootstrapping.html)
 - ##### [Linear Models](./class_notes/linear_models.html)
-- ##### [Prediction via error minimization](./class_notes/prediction_models.html)
+- ##### [Prediction via error minimization](./class_notes/error_minimization.html)
 ### BDS 310 class notes
 
 - ##### [Intro to Python](./class_notes_310/Intro_to_Python.html)
