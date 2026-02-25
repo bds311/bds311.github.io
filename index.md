@@ -83,7 +83,7 @@ tim.warren AT oregonstate.edu
 - ##### [Random Processes](./class_notes/random_processes.html)
 - ##### [Permutation Tests](./class_notes/permutation_tests.html)
 - ##### [Bootstrapping](./class_notes/bootstrapping.html)
-- ##### [Prediction Models](./class_notes/prediction_models.html)
+- ##### [Linear Prediction Models](./class_notes/linear_models.html)
 
 ### BDS 310 class notes
 
